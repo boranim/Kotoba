@@ -1,10 +1,11 @@
 /* Kotoba offline cache. Bump VERSION when publishing updated content. */
-const VERSION = 'kotoba-phone-kanji-v8';
+const VERSION = 'kotoba-pwa-install-v9';
 const CACHE = `${VERSION}-offline`;
 const BASE = new URL('./', self.registration.scope);
 const STATIC = ['./','./index.html','./manifest.webmanifest',
   './assets/index.js','./assets/index.css',
-  './assets/kotoba-bright-theme.css','./assets/themes.css','./icon.svg','./data/lessons.json']
+  './assets/kotoba-bright-theme.css','./assets/themes.css','./icon.svg',
+  './icons/icon-192.png','./icons/icon-512.png','./data/lessons.json']
   .map(path=>new URL(path,BASE).href);
 self.addEventListener('install',event=>{
   event.waitUntil((async()=>{

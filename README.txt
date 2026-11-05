@@ -1,24 +1,12 @@
-KOTOBA PHONE-LOCAL KANJIVG DOWNLOADS — V8
+Kotoba GitHub Pages PWA install fix v9
 
-ONLY TWO FILES CHANGED:
-  assets/index.js
+Replace ONLY these files in your repository root:
+  manifest.webmanifest
   sw.js
+  icons/icon-192.png
+  icons/icon-512.png
 
-Copy them to your working Kotoba folder and push both to GitHub.
-You can leave kanji/ out of GitHub entirely. No changes to CSS, themes,
-index.html, manifest.webmanifest, or lesson JSON files are needed.
-
-On your phone, open Kotoba -> Settings -> Kanji handwriting downloads
--> Download all drawings. The progress shows saved SVGs, and missing drawings
-can be retried. Visiting a lesson online also downloads its SVGs.
-
-SVGs are saved in IndexedDB: kotoba-kanjivg-offline-v1 / drawings.
-Not accessible from Android's Downloads folder, but located on device storage.
-Use Chrome outside Incognito mode. First online visit required.
-
-Official source: https://github.com/KanjiVG/kanjivg
-KanjiVG (c) Ulrich Apel. CC BY-SA 3.0.
-
-Note: This preserves the component coloring logic from v7. Drawings
-are still subject to the existing component-matching limitations.
-Do not clear site data if you want to retain progress or downloaded SVGs.
+Do not change index.js, theme CSS or lesson JSON.
+Publish changes to GitHub Pages, open /Kotoba/ in Chrome on Android, refresh and try Chrome menu > Add to Home screen > Install.
+If the icon files give 404, upload the icons/ folder to the repository root.
+IMPORTANT: sw.js assumes your existing assets/index.js, assets/index.css, assets/kotoba-bright-theme.css, assets/themes.css, icon.svg, data/lessons.json and lesson JSONs exist.
