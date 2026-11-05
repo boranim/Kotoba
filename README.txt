@@ -1,19 +1,24 @@
-KOTOBA KANJI FAMILY-COMPONENT COLORING FIX (v7)
+KOTOBA PHONE-LOCAL KANJIVG DOWNLOADS — V8
 
-Copy only these two files into your EXISTING Kotoba folder:
+ONLY TWO FILES CHANGED:
   assets/index.js
   sw.js
 
-Do not replace your CSS, themes, lesson JSON, or kanji SVG files.
-Reload Chrome and update the service worker (Application > Service Workers > Update).
-Do not clear site data; it contains local study progress.
+Copy them to your working Kotoba folder and push both to GitHub.
+You can leave kanji/ out of GitHub entirely. No changes to CSS, themes,
+index.html, manifest.webmanifest, or lesson JSON files are needed.
 
-W1D1/W1D2 retain the previous colouring logic. For W1D3-W1D7,
-KanjiVG component labels are compared across the actual members of each
-family. Shared structural strokes stay neutral; differing strokes are
-coloured. When a common labelled component cannot be established reliably,
-the drawing remains neutral instead of highlighting the entire glyph.
+On your phone, open Kotoba -> Settings -> Kanji handwriting downloads
+-> Download all drawings. The progress shows saved SVGs, and missing drawings
+can be retried. Visiting a lesson online also downloads its SVGs.
 
-A few families may remain neutral because the available KanjiVG SVGs do not
-label their common part identically. The lesson transcriptions still need
-proofreading against the textbook.
+SVGs are saved in IndexedDB: kotoba-kanjivg-offline-v1 / drawings.
+Not accessible from Android's Downloads folder, but located on device storage.
+Use Chrome outside Incognito mode. First online visit required.
+
+Official source: https://github.com/KanjiVG/kanjivg
+KanjiVG (c) Ulrich Apel. CC BY-SA 3.0.
+
+Note: This preserves the component coloring logic from v7. Drawings
+are still subject to the existing component-matching limitations.
+Do not clear site data if you want to retain progress or downloaded SVGs.
