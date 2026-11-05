@@ -1,0 +1,601 @@
+{
+  "id": "w1d5",
+  "week": 1,
+  "day": 5,
+  "title": "Week 1 · Day 5",
+  "subtitle": "同じ部分・同じ音読みをもつ漢字",
+  "families": [
+    {
+      "id": "療",
+      "base": "療",
+      "reading": "",
+      "title": "療 family",
+      "characters": [
+        "療",
+        "僚",
+        "寮"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "麻",
+      "base": "麻",
+      "reading": "",
+      "title": "麻 family",
+      "characters": [
+        "麻",
+        "磨",
+        "摩",
+        "魔"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "漫",
+      "base": "漫",
+      "reading": "",
+      "title": "漫 family",
+      "characters": [
+        "漫",
+        "慢"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "観",
+      "base": "観",
+      "reading": "",
+      "title": "観 family",
+      "characters": [
+        "観",
+        "歓",
+        "勧"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "譲",
+      "base": "譲",
+      "reading": "",
+      "title": "譲 family",
+      "characters": [
+        "譲",
+        "嬢"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "薬",
+      "base": "薬",
+      "reading": "",
+      "title": "薬 family",
+      "characters": [
+        "薬"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "組",
+      "base": "組",
+      "reading": "",
+      "title": "組 family",
+      "characters": [
+        "組",
+        "祖",
+        "阻",
+        "粗",
+        "租"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "編",
+      "base": "編",
+      "reading": "",
+      "title": "編 family",
+      "characters": [
+        "編",
+        "遍",
+        "偏"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "噴",
+      "base": "噴",
+      "reading": "",
+      "title": "噴 family",
+      "characters": [
+        "噴",
+        "憤"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "獲",
+      "base": "獲",
+      "reading": "",
+      "title": "獲 family",
+      "characters": [
+        "獲",
+        "穫"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "僕",
+      "base": "僕",
+      "reading": "",
+      "title": "僕 family",
+      "characters": [
+        "僕",
+        "撲"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "酔",
+      "base": "酔",
+      "reading": "",
+      "title": "酔 family",
+      "characters": [
+        "酔",
+        "粋",
+        "枠"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    }
+  ],
+  "words": [
+    {
+      "id": "w1d5-001",
+      "family": "療",
+      "kanji": "療",
+      "word": "治療",
+      "reading": "ちりょう",
+      "meaning": "treatment",
+      "meaningKo": "치료"
+    },
+    {
+      "id": "w1d5-002",
+      "family": "療",
+      "kanji": "療",
+      "word": "療養",
+      "reading": "りょうよう",
+      "meaning": "medical treatment; recuperation",
+      "meaningKo": "요양"
+    },
+    {
+      "id": "w1d5-003",
+      "family": "療",
+      "kanji": "僚",
+      "word": "同僚",
+      "reading": "どうりょう",
+      "meaning": "colleague",
+      "meaningKo": "동료"
+    },
+    {
+      "id": "w1d5-004",
+      "family": "療",
+      "kanji": "僚",
+      "word": "官僚",
+      "reading": "かんりょう",
+      "meaning": "government official",
+      "meaningKo": "관료"
+    },
+    {
+      "id": "w1d5-005",
+      "family": "療",
+      "kanji": "寮",
+      "word": "寮",
+      "reading": "りょう",
+      "meaning": "dormitory",
+      "meaningKo": "기숙사"
+    },
+    {
+      "id": "w1d5-006",
+      "family": "麻",
+      "kanji": "麻",
+      "word": "麻酔",
+      "reading": "ますい",
+      "meaning": "anesthesia",
+      "meaningKo": "마취"
+    },
+    {
+      "id": "w1d5-007",
+      "family": "麻",
+      "kanji": "麻",
+      "word": "麻薬",
+      "reading": "まやく",
+      "meaning": "drug; narcotic",
+      "meaningKo": "마약"
+    },
+    {
+      "id": "w1d5-008",
+      "family": "麻",
+      "kanji": "磨",
+      "word": "研磨剤",
+      "reading": "けんまざい",
+      "meaning": "abrasive; polish",
+      "meaningKo": "연마제"
+    },
+    {
+      "id": "w1d5-009",
+      "family": "麻",
+      "kanji": "摩",
+      "word": "摩擦",
+      "reading": "まさつ",
+      "meaning": "friction",
+      "meaningKo": "마찰"
+    },
+    {
+      "id": "w1d5-010",
+      "family": "麻",
+      "kanji": "魔",
+      "word": "魔法",
+      "reading": "まほう",
+      "meaning": "magic",
+      "meaningKo": "마법"
+    },
+    {
+      "id": "w1d5-011",
+      "family": "漫",
+      "kanji": "漫",
+      "word": "漫画",
+      "reading": "まんが",
+      "meaning": "comics",
+      "meaningKo": "만화"
+    },
+    {
+      "id": "w1d5-012",
+      "family": "漫",
+      "kanji": "漫",
+      "word": "漫才",
+      "reading": "まんざい",
+      "meaning": "comic dialogue",
+      "meaningKo": "만자이"
+    },
+    {
+      "id": "w1d5-013",
+      "family": "漫",
+      "kanji": "慢",
+      "word": "自慢",
+      "reading": "じまん",
+      "meaning": "pride; boast",
+      "meaningKo": "자랑"
+    },
+    {
+      "id": "w1d5-014",
+      "family": "漫",
+      "kanji": "慢",
+      "word": "我慢",
+      "reading": "がまん",
+      "meaning": "endurance",
+      "meaningKo": "참음"
+    },
+    {
+      "id": "w1d5-015",
+      "family": "観",
+      "kanji": "観",
+      "word": "観察",
+      "reading": "かんさつ",
+      "meaning": "observation",
+      "meaningKo": "관찰"
+    },
+    {
+      "id": "w1d5-016",
+      "family": "観",
+      "kanji": "観",
+      "word": "価値観",
+      "reading": "かちかん",
+      "meaning": "one's values",
+      "meaningKo": "가치관"
+    },
+    {
+      "id": "w1d5-017",
+      "family": "観",
+      "kanji": "歓",
+      "word": "歓迎",
+      "reading": "かんげい",
+      "meaning": "welcome",
+      "meaningKo": "환영"
+    },
+    {
+      "id": "w1d5-018",
+      "family": "観",
+      "kanji": "歓",
+      "word": "歓声",
+      "reading": "かんせい",
+      "meaning": "cheer",
+      "meaningKo": "환호"
+    },
+    {
+      "id": "w1d5-019",
+      "family": "観",
+      "kanji": "勧",
+      "word": "勧誘",
+      "reading": "かんゆう",
+      "meaning": "invitation; solicitation",
+      "meaningKo": "권유"
+    },
+    {
+      "id": "w1d5-020",
+      "family": "観",
+      "kanji": "勧",
+      "word": "勧告",
+      "reading": "かんこく",
+      "meaning": "official recommendation",
+      "meaningKo": "권고"
+    },
+    {
+      "id": "w1d5-021",
+      "family": "譲",
+      "kanji": "譲",
+      "word": "譲渡",
+      "reading": "じょうと",
+      "meaning": "transfer",
+      "meaningKo": "양도"
+    },
+    {
+      "id": "w1d5-022",
+      "family": "譲",
+      "kanji": "譲",
+      "word": "譲歩",
+      "reading": "じょうほ",
+      "meaning": "concession",
+      "meaningKo": "양보"
+    },
+    {
+      "id": "w1d5-023",
+      "family": "譲",
+      "kanji": "嬢",
+      "word": "お嬢さん",
+      "reading": "おじょうさん",
+      "meaning": "young lady",
+      "meaningKo": "아가씨"
+    },
+    {
+      "id": "w1d5-024",
+      "family": "薬",
+      "kanji": "薬",
+      "word": "薬",
+      "reading": "くすり",
+      "meaning": "medicine",
+      "meaningKo": "약"
+    },
+    {
+      "id": "w1d5-025",
+      "family": "薬",
+      "kanji": "薬",
+      "word": "麻薬",
+      "reading": "まやく",
+      "meaning": "narcotics",
+      "meaningKo": "마약"
+    },
+    {
+      "id": "w1d5-026",
+      "family": "薬",
+      "kanji": "醸",
+      "word": "醸造",
+      "reading": "じょうぞう",
+      "meaning": "brewing",
+      "meaningKo": "양조"
+    },
+    {
+      "id": "w1d5-027",
+      "family": "組",
+      "kanji": "組",
+      "word": "組織",
+      "reading": "そしき",
+      "meaning": "organization",
+      "meaningKo": "조직"
+    },
+    {
+      "id": "w1d5-028",
+      "family": "組",
+      "kanji": "組",
+      "word": "組閣",
+      "reading": "そかく",
+      "meaning": "cabinet formation",
+      "meaningKo": "조각"
+    },
+    {
+      "id": "w1d5-029",
+      "family": "組",
+      "kanji": "祖",
+      "word": "祖父母",
+      "reading": "そふぼ",
+      "meaning": "grandparents",
+      "meaningKo": "조부모"
+    },
+    {
+      "id": "w1d5-030",
+      "family": "組",
+      "kanji": "祖",
+      "word": "祖先",
+      "reading": "そせん",
+      "meaning": "ancestors",
+      "meaningKo": "조상"
+    },
+    {
+      "id": "w1d5-031",
+      "family": "組",
+      "kanji": "阻",
+      "word": "阻止する",
+      "reading": "そしする",
+      "meaning": "obstruct; stop",
+      "meaningKo": "저지하다"
+    },
+    {
+      "id": "w1d5-032",
+      "family": "組",
+      "kanji": "粗",
+      "word": "粗品",
+      "reading": "そしな",
+      "meaning": "small present",
+      "meaningKo": "작은 선물"
+    },
+    {
+      "id": "w1d5-033",
+      "family": "編",
+      "kanji": "編",
+      "word": "編集",
+      "reading": "へんしゅう",
+      "meaning": "editing",
+      "meaningKo": "편집"
+    },
+    {
+      "id": "w1d5-034",
+      "family": "編",
+      "kanji": "編",
+      "word": "長編",
+      "reading": "ちょうへん",
+      "meaning": "long work",
+      "meaningKo": "장편"
+    },
+    {
+      "id": "w1d5-035",
+      "family": "編",
+      "kanji": "遍",
+      "word": "普遍の",
+      "reading": "ふへん",
+      "meaning": "universal",
+      "meaningKo": "보편의"
+    },
+    {
+      "id": "w1d5-036",
+      "family": "編",
+      "kanji": "偏",
+      "word": "偏見",
+      "reading": "へんけん",
+      "meaning": "prejudice",
+      "meaningKo": "편견"
+    },
+    {
+      "id": "w1d5-037",
+      "family": "編",
+      "kanji": "偏",
+      "word": "偏差値",
+      "reading": "へんさち",
+      "meaning": "standard score",
+      "meaningKo": "편차치"
+    },
+    {
+      "id": "w1d5-038",
+      "family": "噴",
+      "kanji": "噴",
+      "word": "噴水",
+      "reading": "ふんすい",
+      "meaning": "fountain",
+      "meaningKo": "분수"
+    },
+    {
+      "id": "w1d5-039",
+      "family": "噴",
+      "kanji": "噴",
+      "word": "噴火",
+      "reading": "ふんか",
+      "meaning": "eruption",
+      "meaningKo": "분화"
+    },
+    {
+      "id": "w1d5-040",
+      "family": "噴",
+      "kanji": "憤",
+      "word": "憤慨",
+      "reading": "ふんがい",
+      "meaning": "indignation",
+      "meaningKo": "분개"
+    },
+    {
+      "id": "w1d5-041",
+      "family": "獲",
+      "kanji": "獲",
+      "word": "獲得",
+      "reading": "かくとく",
+      "meaning": "acquisition",
+      "meaningKo": "획득"
+    },
+    {
+      "id": "w1d5-042",
+      "family": "獲",
+      "kanji": "獲",
+      "word": "捕獲",
+      "reading": "ほかく",
+      "meaning": "capture; seizure",
+      "meaningKo": "포획"
+    },
+    {
+      "id": "w1d5-043",
+      "family": "獲",
+      "kanji": "穫",
+      "word": "収穫",
+      "reading": "しゅうかく",
+      "meaning": "harvest",
+      "meaningKo": "수확"
+    },
+    {
+      "id": "w1d5-044",
+      "family": "僕",
+      "kanji": "僕",
+      "word": "僕",
+      "reading": "ぼく",
+      "meaning": "I; me (male usage)",
+      "meaningKo": "나"
+    },
+    {
+      "id": "w1d5-045",
+      "family": "僕",
+      "kanji": "撲",
+      "word": "撲滅",
+      "reading": "ぼくめつ",
+      "meaning": "eradication",
+      "meaningKo": "박멸"
+    },
+    {
+      "id": "w1d5-046",
+      "family": "僕",
+      "kanji": "撲",
+      "word": "打撲",
+      "reading": "だぼく",
+      "meaning": "bruise; blow",
+      "meaningKo": "타박"
+    },
+    {
+      "id": "w1d5-047",
+      "family": "酔",
+      "kanji": "酔",
+      "word": "麻酔",
+      "reading": "ますい",
+      "meaning": "anesthesia",
+      "meaningKo": "마취"
+    },
+    {
+      "id": "w1d5-048",
+      "family": "酔",
+      "kanji": "粋",
+      "word": "純粋な",
+      "reading": "じゅんすい",
+      "meaning": "pure",
+      "meaningKo": "순수한"
+    },
+    {
+      "id": "w1d5-049",
+      "family": "酔",
+      "kanji": "枠",
+      "word": "枠組み",
+      "reading": "わくぐみ",
+      "meaning": "framework",
+      "meaningKo": "틀"
+    },
+    {
+      "id": "w1d5-050",
+      "family": "酔",
+      "kanji": "枠",
+      "word": "予算の枠",
+      "reading": "わく",
+      "meaning": "budget framework",
+      "meaningKo": "예산의 틀"
+    }
+  ]
+}

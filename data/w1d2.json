@@ -1,0 +1,656 @@
+{
+  "id": "w1d2",
+  "week": 1,
+  "day": 2,
+  "title": "More sounds. New connections.",
+  "subtitle": "同じ読みの漢字がたくさんあるもの②",
+  "families": [
+    {
+      "id": "旨",
+      "base": "旨",
+      "reading": "シ",
+      "title": "The 旨 family",
+      "characters": [
+        "旨",
+        "指",
+        "脂"
+      ],
+      "note": "旨 connects the シ reading in these examples. Compare 指 (hand) with 脂 (flesh)."
+    },
+    {
+      "id": "及",
+      "base": "及",
+      "reading": "キュウ",
+      "title": "The 及 family",
+      "characters": [
+        "及",
+        "級",
+        "吸"
+      ],
+      "note": "Compare the shared 及 shape inside 級 and 吸."
+    },
+    {
+      "id": "巨",
+      "base": "巨",
+      "reading": "キョ",
+      "title": "The 巨 family",
+      "characters": [
+        "巨",
+        "距",
+        "拒"
+      ],
+      "note": "The 巨 shape connects these characters. Compare the foot component in 距 and the hand component in 拒."
+    },
+    {
+      "id": "包",
+      "base": "包",
+      "reading": "ホウ",
+      "title": "The 包 family",
+      "characters": [
+        "包",
+        "砲",
+        "胞",
+        "抱",
+        "泡",
+        "飽"
+      ],
+      "note": "Compare the components around 包. 鉄砲 uses the sound change ぽう; 介抱 is read かいほう."
+    },
+    {
+      "id": "召",
+      "base": "召",
+      "reading": "ショウ",
+      "title": "The 召 family",
+      "characters": [
+        "召",
+        "招",
+        "紹",
+        "照",
+        "昭",
+        "沼"
+      ],
+      "note": "Follow 召 through this family. 沼 is a kun-reading exception: ぬま."
+    },
+    {
+      "id": "旦",
+      "base": "旦",
+      "reading": "タン",
+      "title": "The 旦 family",
+      "characters": [
+        "旦",
+        "担",
+        "胆"
+      ],
+      "note": "旦 is shared by 担 and 胆. 大胆 uses the voiced reading だいたん."
+    },
+    {
+      "id": "兼",
+      "base": "兼",
+      "reading": "ケン",
+      "title": "The 兼 family",
+      "characters": [
+        "兼",
+        "謙",
+        "嫌"
+      ],
+      "note": "兼 is shared by 謙 and 嫌. Compare speech 言 with woman 女."
+    },
+    {
+      "id": "干",
+      "base": "干",
+      "reading": "カン",
+      "title": "The 干 family",
+      "characters": [
+        "干",
+        "汗",
+        "刊",
+        "肝",
+        "幹"
+      ],
+      "note": "These examples use カン and its sound changes. Compare water, knife, and flesh components."
+    },
+    {
+      "id": "屈",
+      "base": "屈",
+      "reading": "クツ",
+      "title": "The 屈 family",
+      "characters": [
+        "屈",
+        "掘",
+        "堀"
+      ],
+      "note": "Compare 屈 with 掘 and 堀. 堀 is mainly read with the kun-reading ほり."
+    }
+  ],
+  "words": [
+    {
+      "id": "w1d2-要旨",
+      "family": "旨",
+      "kanji": "旨",
+      "word": "要旨",
+      "reading": "ようし",
+      "meaning": "the main point; gist",
+      "meaningKo": "요지"
+    },
+    {
+      "id": "w1d2-趣旨",
+      "family": "旨",
+      "kanji": "旨",
+      "word": "趣旨",
+      "reading": "しゅし",
+      "meaning": "purpose; intent",
+      "meaningKo": "취지"
+    },
+    {
+      "id": "w1d2-指示",
+      "family": "旨",
+      "kanji": "指",
+      "word": "指示",
+      "reading": "しじ",
+      "meaning": "instructions; directions",
+      "meaningKo": "지시"
+    },
+    {
+      "id": "w1d2-指摘",
+      "family": "旨",
+      "kanji": "指",
+      "word": "指摘",
+      "reading": "してき",
+      "meaning": "pointing out",
+      "meaningKo": "지적"
+    },
+    {
+      "id": "w1d2-脂肪",
+      "family": "旨",
+      "kanji": "脂",
+      "word": "脂肪",
+      "reading": "しぼう",
+      "meaning": "fat",
+      "meaningKo": "지방"
+    },
+    {
+      "id": "w1d2-油脂",
+      "family": "旨",
+      "kanji": "脂",
+      "word": "油脂",
+      "reading": "ゆし",
+      "meaning": "oils and fats",
+      "meaningKo": "유지; 기름과 지방"
+    },
+    {
+      "id": "w1d2-普及",
+      "family": "及",
+      "kanji": "及",
+      "word": "普及",
+      "reading": "ふきゅう",
+      "meaning": "spread; diffusion",
+      "meaningKo": "보급"
+    },
+    {
+      "id": "w1d2-追及",
+      "family": "及",
+      "kanji": "及",
+      "word": "追及",
+      "reading": "ついきゅう",
+      "meaning": "pursuit; pressing a question",
+      "meaningKo": "추궁"
+    },
+    {
+      "id": "w1d2-高級",
+      "family": "及",
+      "kanji": "級",
+      "word": "高級",
+      "reading": "こうきゅう",
+      "meaning": "high class; high grade",
+      "meaningKo": "고급"
+    },
+    {
+      "id": "w1d2-上級",
+      "family": "及",
+      "kanji": "級",
+      "word": "上級",
+      "reading": "じょうきゅう",
+      "meaning": "advanced level",
+      "meaningKo": "상급"
+    },
+    {
+      "id": "w1d2-吸収",
+      "family": "及",
+      "kanji": "吸",
+      "word": "吸収",
+      "reading": "きゅうしゅう",
+      "meaning": "absorption",
+      "meaningKo": "흡수"
+    },
+    {
+      "id": "w1d2-呼吸",
+      "family": "及",
+      "kanji": "吸",
+      "word": "呼吸",
+      "reading": "こきゅう",
+      "meaning": "breathing; respiration",
+      "meaningKo": "호흡"
+    },
+    {
+      "id": "w1d2-巨大な",
+      "family": "巨",
+      "kanji": "巨",
+      "word": "巨大な",
+      "reading": "きょだい",
+      "meaning": "enormous; gigantic",
+      "meaningKo": "거대한",
+      "note": "The な is an adjectival ending."
+    },
+    {
+      "id": "w1d2-巨人",
+      "family": "巨",
+      "kanji": "巨",
+      "word": "巨人",
+      "reading": "きょじん",
+      "meaning": "a giant",
+      "meaningKo": "거인"
+    },
+    {
+      "id": "w1d2-距離",
+      "family": "巨",
+      "kanji": "距",
+      "word": "距離",
+      "reading": "きょり",
+      "meaning": "distance",
+      "meaningKo": "거리"
+    },
+    {
+      "id": "w1d2-拒否",
+      "family": "巨",
+      "kanji": "拒",
+      "word": "拒否",
+      "reading": "きょひ",
+      "meaning": "rejection; refusal",
+      "meaningKo": "거부"
+    },
+    {
+      "id": "w1d2-拒絶",
+      "family": "巨",
+      "kanji": "拒",
+      "word": "拒絶",
+      "reading": "きょぜつ",
+      "meaning": "refusal; rejection",
+      "meaningKo": "거절"
+    },
+    {
+      "id": "w1d2-包装",
+      "family": "包",
+      "kanji": "包",
+      "word": "包装",
+      "reading": "ほうそう",
+      "meaning": "wrapping; packaging",
+      "meaningKo": "포장"
+    },
+    {
+      "id": "w1d2-大砲",
+      "family": "包",
+      "kanji": "砲",
+      "word": "大砲",
+      "reading": "たいほう",
+      "meaning": "a cannon",
+      "meaningKo": "대포"
+    },
+    {
+      "id": "w1d2-鉄砲",
+      "family": "包",
+      "kanji": "砲",
+      "word": "鉄砲",
+      "reading": "てっぽう",
+      "meaning": "a gun",
+      "meaningKo": "총; 소총",
+      "note": "Notice the small っ and the voiced ぽう."
+    },
+    {
+      "id": "w1d2-同胞",
+      "family": "包",
+      "kanji": "胞",
+      "word": "同胞",
+      "reading": "どうほう",
+      "meaning": "a compatriot; fellow countryman",
+      "meaningKo": "동포"
+    },
+    {
+      "id": "w1d2-細胞",
+      "family": "包",
+      "kanji": "胞",
+      "word": "細胞",
+      "reading": "さいぼう",
+      "meaning": "a cell",
+      "meaningKo": "세포"
+    },
+    {
+      "id": "w1d2-介抱",
+      "family": "包",
+      "kanji": "抱",
+      "word": "介抱",
+      "reading": "かいほう",
+      "meaning": "nursing; looking after someone",
+      "meaningKo": "간호; 병구완"
+    },
+    {
+      "id": "w1d2-水泡",
+      "family": "包",
+      "kanji": "泡",
+      "word": "水泡",
+      "reading": "すいほう",
+      "meaning": "foam; bubbles",
+      "meaningKo": "물거품"
+    },
+    {
+      "id": "w1d2-飽和",
+      "family": "包",
+      "kanji": "飽",
+      "word": "飽和",
+      "reading": "ほうわ",
+      "meaning": "saturation",
+      "meaningKo": "포화"
+    },
+    {
+      "id": "w1d2-召集",
+      "family": "召",
+      "kanji": "召",
+      "word": "召集",
+      "reading": "しょうしゅう",
+      "meaning": "a summons; convening",
+      "meaningKo": "소집"
+    },
+    {
+      "id": "w1d2-招待",
+      "family": "召",
+      "kanji": "招",
+      "word": "招待",
+      "reading": "しょうたい",
+      "meaning": "an invitation",
+      "meaningKo": "초대"
+    },
+    {
+      "id": "w1d2-紹介",
+      "family": "召",
+      "kanji": "紹",
+      "word": "紹介",
+      "reading": "しょうかい",
+      "meaning": "an introduction",
+      "meaningKo": "소개"
+    },
+    {
+      "id": "w1d2-照合",
+      "family": "召",
+      "kanji": "照",
+      "word": "照合",
+      "reading": "しょうごう",
+      "meaning": "comparison; checking against",
+      "meaningKo": "대조; 조회"
+    },
+    {
+      "id": "w1d2-照明",
+      "family": "召",
+      "kanji": "照",
+      "word": "照明",
+      "reading": "しょうめい",
+      "meaning": "illumination; lighting",
+      "meaningKo": "조명"
+    },
+    {
+      "id": "w1d2-昭和",
+      "family": "召",
+      "kanji": "昭",
+      "word": "昭和",
+      "reading": "しょうわ",
+      "meaning": "the Showa era",
+      "meaningKo": "쇼와 (시대 이름)"
+    },
+    {
+      "id": "w1d2-沼",
+      "family": "召",
+      "kanji": "沼",
+      "word": "沼",
+      "reading": "ぬま",
+      "meaning": "a swamp; marsh",
+      "meaningKo": "늪",
+      "note": "Kun-reading exception; mainly read ぬま."
+    },
+    {
+      "id": "w1d2-一旦",
+      "family": "旦",
+      "kanji": "旦",
+      "word": "一旦",
+      "reading": "いったん",
+      "meaning": "once; for the time being",
+      "meaningKo": "일단"
+    },
+    {
+      "id": "w1d2-一旦停止",
+      "family": "旦",
+      "kanji": "旦",
+      "word": "一旦停止",
+      "reading": "いったんていし",
+      "meaning": "a complete stop (at a stop sign)",
+      "meaningKo": "일단정지"
+    },
+    {
+      "id": "w1d2-担当",
+      "family": "旦",
+      "kanji": "担",
+      "word": "担当",
+      "reading": "たんとう",
+      "meaning": "being in charge",
+      "meaningKo": "담당"
+    },
+    {
+      "id": "w1d2-負担",
+      "family": "旦",
+      "kanji": "担",
+      "word": "負担",
+      "reading": "ふたん",
+      "meaning": "a burden",
+      "meaningKo": "부담"
+    },
+    {
+      "id": "w1d2-大胆な",
+      "family": "旦",
+      "kanji": "胆",
+      "word": "大胆な",
+      "reading": "だいたん",
+      "meaning": "bold; daring",
+      "meaningKo": "대담한",
+      "note": "The な is an adjectival ending."
+    },
+    {
+      "id": "w1d2-兼業",
+      "family": "兼",
+      "kanji": "兼",
+      "word": "兼業",
+      "reading": "けんぎょう",
+      "meaning": "having another job; a side occupation",
+      "meaningKo": "겸업"
+    },
+    {
+      "id": "w1d2-兼用",
+      "family": "兼",
+      "kanji": "兼",
+      "word": "兼用",
+      "reading": "けんよう",
+      "meaning": "use for more than one purpose",
+      "meaningKo": "겸용"
+    },
+    {
+      "id": "w1d2-謙虚な",
+      "family": "兼",
+      "kanji": "謙",
+      "word": "謙虚な",
+      "reading": "けんきょ",
+      "meaning": "humble; modest",
+      "meaningKo": "겸허한",
+      "note": "The な is an adjectival ending."
+    },
+    {
+      "id": "w1d2-謙遜",
+      "family": "兼",
+      "kanji": "謙",
+      "word": "謙遜",
+      "reading": "けんそん",
+      "meaning": "modesty; humility",
+      "meaningKo": "겸손"
+    },
+    {
+      "id": "w1d2-嫌悪",
+      "family": "兼",
+      "kanji": "嫌",
+      "word": "嫌悪",
+      "reading": "けんお",
+      "meaning": "hatred; aversion",
+      "meaningKo": "혐오"
+    },
+    {
+      "id": "w1d2-自己嫌悪",
+      "family": "兼",
+      "kanji": "嫌",
+      "word": "自己嫌悪",
+      "reading": "じこけんお",
+      "meaning": "self-hatred; self-loathing",
+      "meaningKo": "자기혐오"
+    },
+    {
+      "id": "w1d2-干渉",
+      "family": "干",
+      "kanji": "干",
+      "word": "干渉",
+      "reading": "かんしょう",
+      "meaning": "interference",
+      "meaningKo": "간섭"
+    },
+    {
+      "id": "w1d2-干潮",
+      "family": "干",
+      "kanji": "干",
+      "word": "干潮",
+      "reading": "かんちょう",
+      "meaning": "low tide",
+      "meaningKo": "썰물; 간조"
+    },
+    {
+      "id": "w1d2-発汗",
+      "family": "干",
+      "kanji": "汗",
+      "word": "発汗",
+      "reading": "はっかん",
+      "meaning": "sweating; perspiration",
+      "meaningKo": "발한"
+    },
+    {
+      "id": "w1d2-発汗作用",
+      "family": "干",
+      "kanji": "汗",
+      "word": "発汗作用",
+      "reading": "はっかんさよう",
+      "meaning": "perspiration; sweat-inducing action",
+      "meaningKo": "발한 작용"
+    },
+    {
+      "id": "w1d2-刊行",
+      "family": "干",
+      "kanji": "刊",
+      "word": "刊行",
+      "reading": "かんこう",
+      "meaning": "publication; publishing",
+      "meaningKo": "간행"
+    },
+    {
+      "id": "w1d2-週刊誌",
+      "family": "干",
+      "kanji": "刊",
+      "word": "週刊誌",
+      "reading": "しゅうかんし",
+      "meaning": "a weekly magazine",
+      "meaningKo": "주간지"
+    },
+    {
+      "id": "w1d2-肝心の",
+      "family": "干",
+      "kanji": "肝",
+      "word": "肝心の",
+      "reading": "かんじん",
+      "meaning": "essential; crucial",
+      "meaningKo": "중요한; 가장 핵심적인",
+      "note": "The の is an attributive ending."
+    },
+    {
+      "id": "w1d2-肝臓",
+      "family": "干",
+      "kanji": "肝",
+      "word": "肝臓",
+      "reading": "かんぞう",
+      "meaning": "the liver",
+      "meaningKo": "간; 간장"
+    },
+    {
+      "id": "w1d2-幹部",
+      "family": "干",
+      "kanji": "幹",
+      "word": "幹部",
+      "reading": "かんぶ",
+      "meaning": "executives; leadership",
+      "meaningKo": "간부"
+    },
+    {
+      "id": "w1d2-新幹線",
+      "family": "干",
+      "kanji": "幹",
+      "word": "新幹線",
+      "reading": "しんかんせん",
+      "meaning": "the Shinkansen; bullet train",
+      "meaningKo": "신칸센"
+    },
+    {
+      "id": "w1d2-理屈",
+      "family": "屈",
+      "kanji": "屈",
+      "word": "理屈",
+      "reading": "りくつ",
+      "meaning": "reasoning; logic",
+      "meaningKo": "이치; 논리"
+    },
+    {
+      "id": "w1d2-屈折",
+      "family": "屈",
+      "kanji": "屈",
+      "word": "屈折",
+      "reading": "くっせつ",
+      "meaning": "refraction; bending",
+      "meaningKo": "굴절"
+    },
+    {
+      "id": "w1d2-発掘",
+      "family": "屈",
+      "kanji": "掘",
+      "word": "発掘",
+      "reading": "はっくつ",
+      "meaning": "excavation",
+      "meaningKo": "발굴"
+    },
+    {
+      "id": "w1d2-採掘する",
+      "family": "屈",
+      "kanji": "掘",
+      "word": "採掘する",
+      "reading": "さいくつする",
+      "meaning": "to mine; excavate",
+      "meaningKo": "채굴하다"
+    },
+    {
+      "id": "w1d2-堀",
+      "family": "屈",
+      "kanji": "堀",
+      "word": "堀",
+      "reading": "ほり",
+      "meaning": "a moat",
+      "meaningKo": "해자",
+      "note": "Kun-reading exception; mainly read ほり."
+    }
+  ]
+}

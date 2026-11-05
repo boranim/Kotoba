@@ -1,0 +1,618 @@
+{
+  "id": "w1d4",
+  "week": 1,
+  "day": 4,
+  "title": "Week 1 · Day 4",
+  "subtitle": "同じ部分・同じ音読みをもつ漢字",
+  "families": [
+    {
+      "id": "義",
+      "base": "義",
+      "reading": "",
+      "title": "義 family",
+      "characters": [
+        "議",
+        "義",
+        "犠",
+        "儀"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "長",
+      "base": "長",
+      "reading": "",
+      "title": "長 family",
+      "characters": [
+        "長",
+        "張",
+        "帳"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "適",
+      "base": "適",
+      "reading": "",
+      "title": "適 family",
+      "characters": [
+        "適",
+        "摘",
+        "滴",
+        "敵"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "昆",
+      "base": "昆",
+      "reading": "",
+      "title": "昆 family",
+      "characters": [
+        "混",
+        "昆"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "協",
+      "base": "協",
+      "reading": "",
+      "title": "協 family",
+      "characters": [
+        "協",
+        "脅"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "普",
+      "base": "普",
+      "reading": "",
+      "title": "普 family",
+      "characters": [
+        "普",
+        "譜"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "冒",
+      "base": "冒",
+      "reading": "",
+      "title": "冒 family",
+      "characters": [
+        "冒",
+        "帽"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "塔",
+      "base": "塔",
+      "reading": "",
+      "title": "塔 family",
+      "characters": [
+        "塔"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "搬",
+      "base": "搬",
+      "reading": "",
+      "title": "搬 family",
+      "characters": [
+        "搬",
+        "般"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "毛",
+      "base": "毛",
+      "reading": "",
+      "title": "毛 family",
+      "characters": [
+        "毛",
+        "耗"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "戒",
+      "base": "戒",
+      "reading": "",
+      "title": "戒 family",
+      "characters": [
+        "戒",
+        "械"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "州",
+      "base": "州",
+      "reading": "",
+      "title": "州 family",
+      "characters": [
+        "州",
+        "酬"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "程",
+      "base": "程",
+      "reading": "",
+      "title": "程 family",
+      "characters": [
+        "程"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "蓄",
+      "base": "蓄",
+      "reading": "",
+      "title": "蓄 family",
+      "characters": [
+        "蓄",
+        "畜"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    }
+  ],
+  "words": [
+    {
+      "id": "w1d4-001",
+      "family": "義",
+      "kanji": "議",
+      "word": "議論",
+      "reading": "ぎろん",
+      "meaning": "argument; discussion",
+      "meaningKo": "의론; 토론"
+    },
+    {
+      "id": "w1d4-002",
+      "family": "義",
+      "kanji": "議",
+      "word": "議会",
+      "reading": "ぎかい",
+      "meaning": "assembly",
+      "meaningKo": "의회"
+    },
+    {
+      "id": "w1d4-003",
+      "family": "義",
+      "kanji": "義",
+      "word": "義理",
+      "reading": "ぎり",
+      "meaning": "duty; obligation",
+      "meaningKo": "의리"
+    },
+    {
+      "id": "w1d4-004",
+      "family": "義",
+      "kanji": "義",
+      "word": "義務",
+      "reading": "ぎむ",
+      "meaning": "duty",
+      "meaningKo": "의무"
+    },
+    {
+      "id": "w1d4-005",
+      "family": "義",
+      "kanji": "犠",
+      "word": "犠牲",
+      "reading": "ぎせい",
+      "meaning": "sacrifice",
+      "meaningKo": "희생"
+    },
+    {
+      "id": "w1d4-006",
+      "family": "義",
+      "kanji": "儀",
+      "word": "礼儀",
+      "reading": "れいぎ",
+      "meaning": "manners",
+      "meaningKo": "예의"
+    },
+    {
+      "id": "w1d4-007",
+      "family": "義",
+      "kanji": "儀",
+      "word": "儀式",
+      "reading": "ぎしき",
+      "meaning": "ceremony",
+      "meaningKo": "의식"
+    },
+    {
+      "id": "w1d4-008",
+      "family": "長",
+      "kanji": "長",
+      "word": "議長",
+      "reading": "ぎちょう",
+      "meaning": "chairperson",
+      "meaningKo": "의장"
+    },
+    {
+      "id": "w1d4-009",
+      "family": "長",
+      "kanji": "長",
+      "word": "成長",
+      "reading": "せいちょう",
+      "meaning": "growth",
+      "meaningKo": "성장"
+    },
+    {
+      "id": "w1d4-010",
+      "family": "長",
+      "kanji": "張",
+      "word": "出張",
+      "reading": "しゅっちょう",
+      "meaning": "business trip",
+      "meaningKo": "출장"
+    },
+    {
+      "id": "w1d4-011",
+      "family": "長",
+      "kanji": "張",
+      "word": "主張",
+      "reading": "しゅちょう",
+      "meaning": "assertion; claim",
+      "meaningKo": "주장"
+    },
+    {
+      "id": "w1d4-012",
+      "family": "長",
+      "kanji": "帳",
+      "word": "手帳",
+      "reading": "てちょう",
+      "meaning": "notebook",
+      "meaningKo": "수첩"
+    },
+    {
+      "id": "w1d4-013",
+      "family": "長",
+      "kanji": "帳",
+      "word": "通帳",
+      "reading": "つうちょう",
+      "meaning": "bankbook",
+      "meaningKo": "통장"
+    },
+    {
+      "id": "w1d4-014",
+      "family": "適",
+      "kanji": "適",
+      "word": "適当な",
+      "reading": "てきとう",
+      "meaning": "appropriate",
+      "meaningKo": "적당한"
+    },
+    {
+      "id": "w1d4-015",
+      "family": "適",
+      "kanji": "適",
+      "word": "適応",
+      "reading": "てきおう",
+      "meaning": "adaptation",
+      "meaningKo": "적응"
+    },
+    {
+      "id": "w1d4-016",
+      "family": "適",
+      "kanji": "摘",
+      "word": "指摘",
+      "reading": "してき",
+      "meaning": "pointing out",
+      "meaningKo": "지적"
+    },
+    {
+      "id": "w1d4-017",
+      "family": "適",
+      "kanji": "摘",
+      "word": "摘発",
+      "reading": "てきはつ",
+      "meaning": "exposure; crackdown",
+      "meaningKo": "적발"
+    },
+    {
+      "id": "w1d4-018",
+      "family": "適",
+      "kanji": "滴",
+      "word": "水滴",
+      "reading": "すいてき",
+      "meaning": "waterdrop",
+      "meaningKo": "물방울"
+    },
+    {
+      "id": "w1d4-019",
+      "family": "適",
+      "kanji": "滴",
+      "word": "点滴",
+      "reading": "てんてき",
+      "meaning": "IV drip",
+      "meaningKo": "점적"
+    },
+    {
+      "id": "w1d4-020",
+      "family": "適",
+      "kanji": "敵",
+      "word": "匹敵",
+      "reading": "ひってき",
+      "meaning": "equal; match",
+      "meaningKo": "필적"
+    },
+    {
+      "id": "w1d4-021",
+      "family": "適",
+      "kanji": "敵",
+      "word": "強敵",
+      "reading": "きょうてき",
+      "meaning": "formidable opponent",
+      "meaningKo": "강적"
+    },
+    {
+      "id": "w1d4-022",
+      "family": "昆",
+      "kanji": "混",
+      "word": "混雑",
+      "reading": "こんざつ",
+      "meaning": "congestion",
+      "meaningKo": "혼잡"
+    },
+    {
+      "id": "w1d4-023",
+      "family": "昆",
+      "kanji": "混",
+      "word": "混乱",
+      "reading": "こんらん",
+      "meaning": "confusion; disorder",
+      "meaningKo": "혼란"
+    },
+    {
+      "id": "w1d4-024",
+      "family": "昆",
+      "kanji": "昆",
+      "word": "昆虫",
+      "reading": "こんちゅう",
+      "meaning": "insect",
+      "meaningKo": "곤충"
+    },
+    {
+      "id": "w1d4-025",
+      "family": "昆",
+      "kanji": "昆",
+      "word": "昆布",
+      "reading": "こんぶ",
+      "meaning": "kelp",
+      "meaningKo": "다시마"
+    },
+    {
+      "id": "w1d4-026",
+      "family": "協",
+      "kanji": "協",
+      "word": "協力",
+      "reading": "きょうりょく",
+      "meaning": "cooperation",
+      "meaningKo": "협력"
+    },
+    {
+      "id": "w1d4-027",
+      "family": "協",
+      "kanji": "協",
+      "word": "妥協",
+      "reading": "だきょう",
+      "meaning": "compromise",
+      "meaningKo": "타협"
+    },
+    {
+      "id": "w1d4-028",
+      "family": "協",
+      "kanji": "脅",
+      "word": "脅迫",
+      "reading": "きょうはく",
+      "meaning": "threat; intimidation",
+      "meaningKo": "협박"
+    },
+    {
+      "id": "w1d4-029",
+      "family": "協",
+      "kanji": "脅",
+      "word": "脅威",
+      "reading": "きょうい",
+      "meaning": "threat",
+      "meaningKo": "위협"
+    },
+    {
+      "id": "w1d4-030",
+      "family": "普",
+      "kanji": "普",
+      "word": "普及",
+      "reading": "ふきゅう",
+      "meaning": "spread; diffusion",
+      "meaningKo": "보급"
+    },
+    {
+      "id": "w1d4-031",
+      "family": "普",
+      "kanji": "普",
+      "word": "普通な",
+      "reading": "ふつう",
+      "meaning": "ordinary",
+      "meaningKo": "보통의"
+    },
+    {
+      "id": "w1d4-032",
+      "family": "普",
+      "kanji": "譜",
+      "word": "楽譜",
+      "reading": "がくふ",
+      "meaning": "music score",
+      "meaningKo": "악보"
+    },
+    {
+      "id": "w1d4-033",
+      "family": "冒",
+      "kanji": "帽",
+      "word": "帽子",
+      "reading": "ぼうし",
+      "meaning": "hat",
+      "meaningKo": "모자"
+    },
+    {
+      "id": "w1d4-034",
+      "family": "冒",
+      "kanji": "帽",
+      "word": "脱帽",
+      "reading": "だつぼう",
+      "meaning": "taking off one's hat",
+      "meaningKo": "탈모"
+    },
+    {
+      "id": "w1d4-035",
+      "family": "冒",
+      "kanji": "冒",
+      "word": "冒険",
+      "reading": "ぼうけん",
+      "meaning": "adventure",
+      "meaningKo": "모험"
+    },
+    {
+      "id": "w1d4-036",
+      "family": "冒",
+      "kanji": "冒",
+      "word": "冒頭",
+      "reading": "ぼうとう",
+      "meaning": "beginning",
+      "meaningKo": "서두"
+    },
+    {
+      "id": "w1d4-037",
+      "family": "塔",
+      "kanji": "塔",
+      "word": "塔",
+      "reading": "とう",
+      "meaning": "tower",
+      "meaningKo": "탑"
+    },
+    {
+      "id": "w1d4-038",
+      "family": "搬",
+      "kanji": "般",
+      "word": "全般",
+      "reading": "ぜんぱん",
+      "meaning": "the whole; general",
+      "meaningKo": "전반"
+    },
+    {
+      "id": "w1d4-039",
+      "family": "搬",
+      "kanji": "搬",
+      "word": "運搬",
+      "reading": "うんぱん",
+      "meaning": "transport",
+      "meaningKo": "운반"
+    },
+    {
+      "id": "w1d4-040",
+      "family": "毛",
+      "kanji": "毛",
+      "word": "羊毛",
+      "reading": "ようもう",
+      "meaning": "wool",
+      "meaningKo": "양모"
+    },
+    {
+      "id": "w1d4-041",
+      "family": "毛",
+      "kanji": "耗",
+      "word": "消耗",
+      "reading": "しょうもう",
+      "meaning": "consumption; exhaustion",
+      "meaningKo": "소모"
+    },
+    {
+      "id": "w1d4-042",
+      "family": "戒",
+      "kanji": "械",
+      "word": "機械",
+      "reading": "きかい",
+      "meaning": "machine",
+      "meaningKo": "기계"
+    },
+    {
+      "id": "w1d4-043",
+      "family": "戒",
+      "kanji": "戒",
+      "word": "警戒",
+      "reading": "けいかい",
+      "meaning": "caution",
+      "meaningKo": "경계"
+    },
+    {
+      "id": "w1d4-044",
+      "family": "州",
+      "kanji": "州",
+      "word": "九州",
+      "reading": "きゅうしゅう",
+      "meaning": "Kyushu",
+      "meaningKo": "규슈"
+    },
+    {
+      "id": "w1d4-045",
+      "family": "州",
+      "kanji": "酬",
+      "word": "報酬",
+      "reading": "ほうしゅう",
+      "meaning": "reward",
+      "meaningKo": "보수"
+    },
+    {
+      "id": "w1d4-046",
+      "family": "程",
+      "kanji": "程",
+      "word": "程度",
+      "reading": "ていど",
+      "meaning": "degree; extent",
+      "meaningKo": "정도"
+    },
+    {
+      "id": "w1d4-047",
+      "family": "程",
+      "kanji": "程",
+      "word": "日程",
+      "reading": "にってい",
+      "meaning": "schedule",
+      "meaningKo": "일정"
+    },
+    {
+      "id": "w1d4-048",
+      "family": "蓄",
+      "kanji": "畜",
+      "word": "家畜",
+      "reading": "かちく",
+      "meaning": "domestic animals",
+      "meaningKo": "가축"
+    },
+    {
+      "id": "w1d4-049",
+      "family": "蓄",
+      "kanji": "蓄",
+      "word": "貯蓄",
+      "reading": "ちょちく",
+      "meaning": "saving; accumulation",
+      "meaningKo": "저축"
+    },
+    {
+      "id": "w1d4-050",
+      "family": "蓄",
+      "kanji": "蓄",
+      "word": "蓄財",
+      "reading": "ちくざい",
+      "meaning": "accumulating wealth",
+      "meaningKo": "축재"
+    }
+  ]
+}

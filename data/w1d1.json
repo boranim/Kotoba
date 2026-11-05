@@ -1,0 +1,715 @@
+{
+  "id": "w1d1",
+  "week": 1,
+  "day": 1,
+  "title": "Same sound. Different kanji.",
+  "subtitle": "同じ読みの漢字がたくさんあるもの①",
+  "families": [
+    {
+      "id": "古",
+      "base": "古",
+      "reading": "コ",
+      "title": "The 古 family",
+      "characters": [
+        "古",
+        "固",
+        "個",
+        "故",
+        "湖"
+      ],
+      "note": "These characters share 古 and the on-reading コ. This is a reading pattern, not a guarantee for every compound."
+    },
+    {
+      "id": "五",
+      "base": "五",
+      "reading": "ゴ",
+      "title": "The 五 family",
+      "characters": [
+        "五",
+        "語",
+        "悟"
+      ],
+      "note": "Look for 五 inside the larger 吾 component in 語 and 悟."
+    },
+    {
+      "id": "未",
+      "base": "未",
+      "reading": "ミ",
+      "title": "The 未 family",
+      "characters": [
+        "未",
+        "味",
+        "魅"
+      ],
+      "note": "The shared component 未 helps connect these characters with ミ."
+    },
+    {
+      "id": "工",
+      "base": "工",
+      "reading": "コウ",
+      "title": "The 工 family",
+      "characters": [
+        "工",
+        "紅",
+        "功",
+        "巧",
+        "項",
+        "攻",
+        "貢"
+      ],
+      "note": "Most examples use コウ. 細工 is an exception; 紅葉 also has the reading もみじ."
+    },
+    {
+      "id": "取",
+      "base": "取",
+      "reading": "シュ",
+      "title": "The 取 family",
+      "characters": [
+        "取",
+        "趣"
+      ],
+      "note": "取 is also a component of 趣. Notice that 趣向 is しゅこう."
+    },
+    {
+      "id": "章",
+      "base": "章",
+      "reading": "ショウ",
+      "title": "The 章 family",
+      "characters": [
+        "章",
+        "障",
+        "彰"
+      ],
+      "note": "Follow the 章 component through 障 and 彰."
+    },
+    {
+      "id": "甫",
+      "base": "甫",
+      "reading": "ホ",
+      "title": "The 甫 family",
+      "characters": [
+        "補",
+        "捕",
+        "舗",
+        "浦"
+      ],
+      "note": "補・捕・舗 use ホ in these examples. 浦 is an exception: the book notes mainly kun-readings, e.g. 浦（うら）."
+    },
+    {
+      "id": "郷",
+      "base": "郷",
+      "reading": "キョウ",
+      "title": "The 郷 family",
+      "characters": [
+        "郷",
+        "響"
+      ],
+      "note": "響 contains a related 郷 form; compare 故郷・帰郷 and 影響・反響."
+    },
+    {
+      "id": "帯",
+      "base": "帯",
+      "reading": "タイ",
+      "title": "The 帯 family",
+      "characters": [
+        "帯",
+        "滞"
+      ],
+      "note": "Compare 帯 with 滞, which adds the water component 氵."
+    },
+    {
+      "id": "朱",
+      "base": "朱",
+      "reading": "シュ",
+      "title": "The 朱 family",
+      "characters": [
+        "朱",
+        "珠",
+        "殊",
+        "株"
+      ],
+      "note": "珠 and 殊 use シュ in these examples. 株 is mainly read with the kun-reading かぶ."
+    }
+  ],
+  "words": [
+    {
+      "id": "w1d1-古典",
+      "family": "古",
+      "kanji": "古",
+      "word": "古典",
+      "reading": "こてん",
+      "meaning": "a classic",
+      "meaningKo": "고전"
+    },
+    {
+      "id": "w1d1-古代の",
+      "family": "古",
+      "kanji": "古",
+      "word": "古代の",
+      "reading": "こだい",
+      "meaning": "ancient",
+      "meaningKo": "고대의",
+      "note": "The の is an attributive ending; the reading target is 古代."
+    },
+    {
+      "id": "w1d1-固定",
+      "family": "古",
+      "kanji": "固",
+      "word": "固定",
+      "reading": "こてい",
+      "meaning": "fixing; fixation",
+      "meaningKo": "고정"
+    },
+    {
+      "id": "w1d1-固有の",
+      "family": "古",
+      "kanji": "固",
+      "word": "固有の",
+      "reading": "こゆう",
+      "meaning": "inherent; peculiar to",
+      "meaningKo": "고유의",
+      "note": "The の is an attributive ending; the reading target is 固有."
+    },
+    {
+      "id": "w1d1-個性",
+      "family": "古",
+      "kanji": "個",
+      "word": "個性",
+      "reading": "こせい",
+      "meaning": "individuality",
+      "meaningKo": "개성"
+    },
+    {
+      "id": "w1d1-個別の",
+      "family": "古",
+      "kanji": "個",
+      "word": "個別の",
+      "reading": "こべつ",
+      "meaning": "individual; separate",
+      "meaningKo": "개별적인",
+      "note": "The の is an attributive ending; the reading target is 個別."
+    },
+    {
+      "id": "w1d1-事故",
+      "family": "古",
+      "kanji": "故",
+      "word": "事故",
+      "reading": "じこ",
+      "meaning": "an accident",
+      "meaningKo": "사고"
+    },
+    {
+      "id": "w1d1-故人",
+      "family": "古",
+      "kanji": "故",
+      "word": "故人",
+      "reading": "こじん",
+      "meaning": "the deceased",
+      "meaningKo": "고인"
+    },
+    {
+      "id": "w1d1-琵琶湖",
+      "family": "古",
+      "kanji": "湖",
+      "word": "琵琶湖",
+      "reading": "びわこ",
+      "meaning": "Lake Biwa",
+      "meaningKo": "비와호"
+    },
+    {
+      "id": "w1d1-湖畔",
+      "family": "古",
+      "kanji": "湖",
+      "word": "湖畔",
+      "reading": "こはん",
+      "meaning": "lakeside",
+      "meaningKo": "호반; 호숫가"
+    },
+    {
+      "id": "w1d1-五十音",
+      "family": "五",
+      "kanji": "五",
+      "word": "五十音",
+      "reading": "ごじゅうおん",
+      "meaning": "the Japanese syllabary",
+      "meaningKo": "오십음; 일본어 음절표"
+    },
+    {
+      "id": "w1d1-五輪",
+      "family": "五",
+      "kanji": "五",
+      "word": "五輪",
+      "reading": "ごりん",
+      "meaning": "the Olympics",
+      "meaningKo": "올림픽"
+    },
+    {
+      "id": "w1d1-言語",
+      "family": "五",
+      "kanji": "語",
+      "word": "言語",
+      "reading": "げんご",
+      "meaning": "language",
+      "meaningKo": "언어"
+    },
+    {
+      "id": "w1d1-語句",
+      "family": "五",
+      "kanji": "語",
+      "word": "語句",
+      "reading": "ごく",
+      "meaning": "words and phrases",
+      "meaningKo": "어구"
+    },
+    {
+      "id": "w1d1-覚悟",
+      "family": "五",
+      "kanji": "悟",
+      "word": "覚悟",
+      "reading": "かくご",
+      "meaning": "readiness; resolve",
+      "meaningKo": "각오"
+    },
+    {
+      "id": "w1d1-未知",
+      "family": "未",
+      "kanji": "未",
+      "word": "未知",
+      "reading": "みち",
+      "meaning": "unknown",
+      "meaningKo": "미지; 아직 알지 못함"
+    },
+    {
+      "id": "w1d1-未定",
+      "family": "未",
+      "kanji": "未",
+      "word": "未定",
+      "reading": "みてい",
+      "meaning": "undecided",
+      "meaningKo": "미정"
+    },
+    {
+      "id": "w1d1-中味",
+      "family": "未",
+      "kanji": "味",
+      "word": "中味",
+      "reading": "なかみ",
+      "meaning": "contents",
+      "meaningKo": "내용물; 속",
+      "note": "Also commonly written 中身."
+    },
+    {
+      "id": "w1d1-味覚",
+      "family": "未",
+      "kanji": "味",
+      "word": "味覚",
+      "reading": "みかく",
+      "meaning": "sense of taste",
+      "meaningKo": "미각"
+    },
+    {
+      "id": "w1d1-魅力",
+      "family": "未",
+      "kanji": "魅",
+      "word": "魅力",
+      "reading": "みりょく",
+      "meaning": "charm; appeal",
+      "meaningKo": "매력"
+    },
+    {
+      "id": "w1d1-魅了する",
+      "family": "未",
+      "kanji": "魅",
+      "word": "魅了する",
+      "reading": "みりょう",
+      "meaning": "to fascinate",
+      "meaningKo": "매료하다; 사로잡다",
+      "note": "The book lists 魅了する; the reading target is 魅了."
+    },
+    {
+      "id": "w1d1-加工",
+      "family": "工",
+      "kanji": "工",
+      "word": "加工",
+      "reading": "かこう",
+      "meaning": "processing",
+      "meaningKo": "가공"
+    },
+    {
+      "id": "w1d1-細工",
+      "family": "工",
+      "kanji": "工",
+      "word": "細工",
+      "reading": "さいく",
+      "meaning": "craftwork",
+      "meaningKo": "세공; 손으로 정교하게 만드는 일",
+      "note": "An exceptional reading: さいく, not さいこう."
+    },
+    {
+      "id": "w1d1-紅葉",
+      "family": "工",
+      "kanji": "紅",
+      "word": "紅葉",
+      "reading": "こうよう",
+      "meaning": "autumn leaves",
+      "meaningKo": "단풍",
+      "note": "Also read もみじ. Both readings are accepted in this context.",
+      "alternatives": [
+        "もみじ"
+      ]
+    },
+    {
+      "id": "w1d1-成功",
+      "family": "工",
+      "kanji": "功",
+      "word": "成功",
+      "reading": "せいこう",
+      "meaning": "success",
+      "meaningKo": "성공"
+    },
+    {
+      "id": "w1d1-功績",
+      "family": "工",
+      "kanji": "功",
+      "word": "功績",
+      "reading": "こうせき",
+      "meaning": "achievements",
+      "meaningKo": "공적; 공로"
+    },
+    {
+      "id": "w1d1-巧妙な",
+      "family": "工",
+      "kanji": "巧",
+      "word": "巧妙な",
+      "reading": "こうみょう",
+      "meaning": "clever; skillful",
+      "meaningKo": "교묘한",
+      "note": "The な is an adjectival ending."
+    },
+    {
+      "id": "w1d1-精巧な",
+      "family": "工",
+      "kanji": "巧",
+      "word": "精巧な",
+      "reading": "せいこう",
+      "meaning": "elaborate; intricate",
+      "meaningKo": "정교한",
+      "note": "The な is an adjectival ending."
+    },
+    {
+      "id": "w1d1-項目",
+      "family": "工",
+      "kanji": "項",
+      "word": "項目",
+      "reading": "こうもく",
+      "meaning": "an item; heading",
+      "meaningKo": "항목"
+    },
+    {
+      "id": "w1d1-事項",
+      "family": "工",
+      "kanji": "項",
+      "word": "事項",
+      "reading": "じこう",
+      "meaning": "matters; particulars",
+      "meaningKo": "사항"
+    },
+    {
+      "id": "w1d1-専攻",
+      "family": "工",
+      "kanji": "攻",
+      "word": "専攻",
+      "reading": "せんこう",
+      "meaning": "a major; specialization",
+      "meaningKo": "전공"
+    },
+    {
+      "id": "w1d1-攻撃",
+      "family": "工",
+      "kanji": "攻",
+      "word": "攻撃",
+      "reading": "こうげき",
+      "meaning": "an attack",
+      "meaningKo": "공격"
+    },
+    {
+      "id": "w1d1-貢献",
+      "family": "工",
+      "kanji": "貢",
+      "word": "貢献",
+      "reading": "こうけん",
+      "meaning": "contribution",
+      "meaningKo": "공헌; 기여"
+    },
+    {
+      "id": "w1d1-取材",
+      "family": "取",
+      "kanji": "取",
+      "word": "取材",
+      "reading": "しゅざい",
+      "meaning": "gathering material; reporting",
+      "meaningKo": "취재"
+    },
+    {
+      "id": "w1d1-取得",
+      "family": "取",
+      "kanji": "取",
+      "word": "取得",
+      "reading": "しゅとく",
+      "meaning": "acquisition",
+      "meaningKo": "취득"
+    },
+    {
+      "id": "w1d1-趣味",
+      "family": "取",
+      "kanji": "趣",
+      "word": "趣味",
+      "reading": "しゅみ",
+      "meaning": "a hobby",
+      "meaningKo": "취미"
+    },
+    {
+      "id": "w1d1-趣向",
+      "family": "取",
+      "kanji": "趣",
+      "word": "趣向",
+      "reading": "しゅこう",
+      "meaning": "an idea; a device",
+      "meaningKo": "취향; 색다른 구상이나 고안"
+    },
+    {
+      "id": "w1d1-文章",
+      "family": "章",
+      "kanji": "章",
+      "word": "文章",
+      "reading": "ぶんしょう",
+      "meaning": "a sentence; composition",
+      "meaningKo": "문장; 글"
+    },
+    {
+      "id": "w1d1-第一章",
+      "family": "章",
+      "kanji": "章",
+      "word": "第一章",
+      "reading": "だいいっしょう",
+      "meaning": "chapter one",
+      "meaningKo": "제1장"
+    },
+    {
+      "id": "w1d1-故障",
+      "family": "章",
+      "kanji": "障",
+      "word": "故障",
+      "reading": "こしょう",
+      "meaning": "breakdown; failure",
+      "meaningKo": "고장"
+    },
+    {
+      "id": "w1d1-障害",
+      "family": "章",
+      "kanji": "障",
+      "word": "障害",
+      "reading": "しょうがい",
+      "meaning": "an obstacle; impairment",
+      "meaningKo": "장애; 방해"
+    },
+    {
+      "id": "w1d1-表彰",
+      "family": "章",
+      "kanji": "彰",
+      "word": "表彰",
+      "reading": "ひょうしょう",
+      "meaning": "commendation",
+      "meaningKo": "표창"
+    },
+    {
+      "id": "w1d1-表彰状",
+      "family": "章",
+      "kanji": "彰",
+      "word": "表彰状",
+      "reading": "ひょうしょうじょう",
+      "meaning": "a certificate of commendation",
+      "meaningKo": "표창장",
+      "note": "Additional word noted underneath 表彰."
+    },
+    {
+      "id": "w1d1-補足",
+      "family": "甫",
+      "kanji": "補",
+      "word": "補足",
+      "reading": "ほそく",
+      "meaning": "supplementation",
+      "meaningKo": "보충"
+    },
+    {
+      "id": "w1d1-捕獲",
+      "family": "甫",
+      "kanji": "捕",
+      "word": "捕獲",
+      "reading": "ほかく",
+      "meaning": "capture",
+      "meaningKo": "포획"
+    },
+    {
+      "id": "w1d1-舗装",
+      "family": "甫",
+      "kanji": "舗",
+      "word": "舗装",
+      "reading": "ほそう",
+      "meaning": "pavement; paving",
+      "meaningKo": "포장; 길의 바닥을 다지는 일"
+    },
+    {
+      "id": "w1d1-浦",
+      "family": "甫",
+      "kanji": "浦",
+      "word": "浦",
+      "reading": "うら",
+      "meaning": "an inlet; bay",
+      "meaningKo": "포구; 바닷가",
+      "note": "Book exception: mainly kun-readings. 浦 is not part of the ホ reading pattern."
+    },
+    {
+      "id": "w1d1-浦安",
+      "family": "甫",
+      "kanji": "浦",
+      "word": "浦安",
+      "reading": "うらやす",
+      "meaning": "Urayasu",
+      "meaningKo": "우라야스 (지명)",
+      "note": "Place name listed as a kun-reading example."
+    },
+    {
+      "id": "w1d1-浦和",
+      "family": "甫",
+      "kanji": "浦",
+      "word": "浦和",
+      "reading": "うらわ",
+      "meaning": "Urawa",
+      "meaningKo": "우라와 (지명)",
+      "note": "Place name listed as a kun-reading example."
+    },
+    {
+      "id": "w1d1-故郷",
+      "family": "郷",
+      "kanji": "郷",
+      "word": "故郷",
+      "reading": "こきょう",
+      "meaning": "a hometown",
+      "meaningKo": "고향",
+      "note": "ふるさと is another established reading.",
+      "alternatives": [
+        "ふるさと"
+      ]
+    },
+    {
+      "id": "w1d1-帰郷",
+      "family": "郷",
+      "kanji": "郷",
+      "word": "帰郷",
+      "reading": "ききょう",
+      "meaning": "homecoming",
+      "meaningKo": "귀향"
+    },
+    {
+      "id": "w1d1-影響",
+      "family": "郷",
+      "kanji": "響",
+      "word": "影響",
+      "reading": "えいきょう",
+      "meaning": "influence; effect",
+      "meaningKo": "영향"
+    },
+    {
+      "id": "w1d1-反響",
+      "family": "郷",
+      "kanji": "響",
+      "word": "反響",
+      "reading": "はんきょう",
+      "meaning": "a response; echo",
+      "meaningKo": "반향; 반응"
+    },
+    {
+      "id": "w1d1-世帯",
+      "family": "帯",
+      "kanji": "帯",
+      "word": "世帯",
+      "reading": "せたい",
+      "meaning": "a household",
+      "meaningKo": "세대; 가구"
+    },
+    {
+      "id": "w1d1-携帯",
+      "family": "帯",
+      "kanji": "帯",
+      "word": "携帯",
+      "reading": "けいたい",
+      "meaning": "portable; carrying",
+      "meaningKo": "휴대"
+    },
+    {
+      "id": "w1d1-渋滞",
+      "family": "帯",
+      "kanji": "滞",
+      "word": "渋滞",
+      "reading": "じゅうたい",
+      "meaning": "a traffic jam",
+      "meaningKo": "교통 정체"
+    },
+    {
+      "id": "w1d1-滞在",
+      "family": "帯",
+      "kanji": "滞",
+      "word": "滞在",
+      "reading": "たいざい",
+      "meaning": "a stay",
+      "meaningKo": "체재; 머무름"
+    },
+    {
+      "id": "w1d1-朱色",
+      "family": "朱",
+      "kanji": "朱",
+      "word": "朱色",
+      "reading": "しゅいろ",
+      "meaning": "vermilion red",
+      "meaningKo": "주홍색"
+    },
+    {
+      "id": "w1d1-珠算",
+      "family": "朱",
+      "kanji": "珠",
+      "word": "珠算",
+      "reading": "しゅざん",
+      "meaning": "calculation on an abacus",
+      "meaningKo": "주산"
+    },
+    {
+      "id": "w1d1-真珠",
+      "family": "朱",
+      "kanji": "珠",
+      "word": "真珠",
+      "reading": "しんじゅ",
+      "meaning": "a pearl",
+      "meaningKo": "진주"
+    },
+    {
+      "id": "w1d1-特殊",
+      "family": "朱",
+      "kanji": "殊",
+      "word": "特殊",
+      "reading": "とくしゅ",
+      "meaning": "special; exceptional",
+      "meaningKo": "특수"
+    },
+    {
+      "id": "w1d1-株",
+      "family": "朱",
+      "kanji": "株",
+      "word": "株",
+      "reading": "かぶ",
+      "meaning": "a stump; stocks",
+      "meaningKo": "그루터기; 주식",
+      "note": "Book exception: mainly kun-reading."
+    }
+  ]
+}

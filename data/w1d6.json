@@ -1,0 +1,625 @@
+{
+  "id": "w1d6",
+  "week": 1,
+  "day": 6,
+  "title": "Week 1 · Day 6",
+  "subtitle": "同じ部分・同じ音読みをもつ漢字",
+  "families": [
+    {
+      "id": "栽",
+      "base": "栽",
+      "reading": "",
+      "title": "栽 family",
+      "characters": [
+        "栽",
+        "裁",
+        "載"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "壮",
+      "base": "壮",
+      "reading": "",
+      "title": "壮 family",
+      "characters": [
+        "壮",
+        "荘"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "卑",
+      "base": "卑",
+      "reading": "",
+      "title": "卑 family",
+      "characters": [
+        "卑",
+        "碑"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "唱",
+      "base": "唱",
+      "reading": "",
+      "title": "唱 family",
+      "characters": [
+        "唱",
+        "晶"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "熟",
+      "base": "熟",
+      "reading": "",
+      "title": "熟 family",
+      "characters": [
+        "熟"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "従",
+      "base": "従",
+      "reading": "",
+      "title": "従 family",
+      "characters": [
+        "従",
+        "縦"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "盾",
+      "base": "盾",
+      "reading": "",
+      "title": "盾 family",
+      "characters": [
+        "盾",
+        "循"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "需",
+      "base": "需",
+      "reading": "",
+      "title": "需 family",
+      "characters": [
+        "需",
+        "儒"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "孤",
+      "base": "孤",
+      "reading": "",
+      "title": "孤 family",
+      "characters": [
+        "孤"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "充",
+      "base": "充",
+      "reading": "",
+      "title": "充 family",
+      "characters": [
+        "充",
+        "銃"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "沿",
+      "base": "沿",
+      "reading": "",
+      "title": "沿 family",
+      "characters": [
+        "沿"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "鉛",
+      "base": "鉛",
+      "reading": "",
+      "title": "鉛 family",
+      "characters": [
+        "鉛"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "弊",
+      "base": "弊",
+      "reading": "",
+      "title": "弊 family",
+      "characters": [
+        "弊"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "撤",
+      "base": "撤",
+      "reading": "",
+      "title": "撤 family",
+      "characters": [
+        "撤",
+        "徹"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "揺",
+      "base": "揺",
+      "reading": "",
+      "title": "揺 family",
+      "characters": [
+        "揺",
+        "謡"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "髄",
+      "base": "髄",
+      "reading": "",
+      "title": "髄 family",
+      "characters": [
+        "髄"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "源",
+      "base": "源",
+      "reading": "",
+      "title": "源 family",
+      "characters": [
+        "源"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "睡",
+      "base": "睡",
+      "reading": "",
+      "title": "睡 family",
+      "characters": [
+        "睡"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    }
+  ],
+  "words": [
+    {
+      "id": "w1d6-001",
+      "family": "栽",
+      "kanji": "栽",
+      "word": "栽培",
+      "reading": "さいばい",
+      "meaning": "cultivation",
+      "meaningKo": "재배"
+    },
+    {
+      "id": "w1d6-002",
+      "family": "栽",
+      "kanji": "裁",
+      "word": "裁判",
+      "reading": "さいばん",
+      "meaning": "trial",
+      "meaningKo": "재판"
+    },
+    {
+      "id": "w1d6-003",
+      "family": "栽",
+      "kanji": "載",
+      "word": "掲載",
+      "reading": "けいさい",
+      "meaning": "publication",
+      "meaningKo": "게재"
+    },
+    {
+      "id": "w1d6-004",
+      "family": "栽",
+      "kanji": "載",
+      "word": "記載",
+      "reading": "きさい",
+      "meaning": "written mention",
+      "meaningKo": "기재"
+    },
+    {
+      "id": "w1d6-005",
+      "family": "壮",
+      "kanji": "壮",
+      "word": "壮大な",
+      "reading": "そうだい",
+      "meaning": "magnificent",
+      "meaningKo": "장대한"
+    },
+    {
+      "id": "w1d6-006",
+      "family": "壮",
+      "kanji": "壮",
+      "word": "壮絶な",
+      "reading": "そうぜつ",
+      "meaning": "heroic; fierce",
+      "meaningKo": "장렬한"
+    },
+    {
+      "id": "w1d6-007",
+      "family": "壮",
+      "kanji": "荘",
+      "word": "別荘",
+      "reading": "べっそう",
+      "meaning": "cottage; villa",
+      "meaningKo": "별장"
+    },
+    {
+      "id": "w1d6-008",
+      "family": "壮",
+      "kanji": "荘",
+      "word": "山荘",
+      "reading": "さんそう",
+      "meaning": "mountain cottage",
+      "meaningKo": "산장"
+    },
+    {
+      "id": "w1d6-009",
+      "family": "卑",
+      "kanji": "卑",
+      "word": "卑怯な",
+      "reading": "ひきょう",
+      "meaning": "cowardly; unfair",
+      "meaningKo": "비겁한"
+    },
+    {
+      "id": "w1d6-010",
+      "family": "卑",
+      "kanji": "碑",
+      "word": "石碑",
+      "reading": "せきひ",
+      "meaning": "stone monument",
+      "meaningKo": "석비"
+    },
+    {
+      "id": "w1d6-011",
+      "family": "唱",
+      "kanji": "唱",
+      "word": "合唱",
+      "reading": "がっしょう",
+      "meaning": "chorus",
+      "meaningKo": "합창"
+    },
+    {
+      "id": "w1d6-012",
+      "family": "唱",
+      "kanji": "唱",
+      "word": "提唱",
+      "reading": "ていしょう",
+      "meaning": "advocacy",
+      "meaningKo": "제창"
+    },
+    {
+      "id": "w1d6-013",
+      "family": "唱",
+      "kanji": "晶",
+      "word": "結晶",
+      "reading": "けっしょう",
+      "meaning": "crystal",
+      "meaningKo": "결정"
+    },
+    {
+      "id": "w1d6-014",
+      "family": "唱",
+      "kanji": "晶",
+      "word": "水晶",
+      "reading": "すいしょう",
+      "meaning": "quartz crystal",
+      "meaningKo": "수정"
+    },
+    {
+      "id": "w1d6-015",
+      "family": "熟",
+      "kanji": "熟",
+      "word": "成熟",
+      "reading": "せいじゅく",
+      "meaning": "maturity",
+      "meaningKo": "성숙"
+    },
+    {
+      "id": "w1d6-016",
+      "family": "熟",
+      "kanji": "熟",
+      "word": "未熟な",
+      "reading": "みじゅく",
+      "meaning": "immature",
+      "meaningKo": "미숙한"
+    },
+    {
+      "id": "w1d6-017",
+      "family": "従",
+      "kanji": "従",
+      "word": "従来の",
+      "reading": "じゅうらい",
+      "meaning": "usual; conventional",
+      "meaningKo": "종래의"
+    },
+    {
+      "id": "w1d6-018",
+      "family": "従",
+      "kanji": "従",
+      "word": "従事する",
+      "reading": "じゅうじする",
+      "meaning": "engage in",
+      "meaningKo": "종사하다"
+    },
+    {
+      "id": "w1d6-019",
+      "family": "従",
+      "kanji": "縦",
+      "word": "縦",
+      "reading": "たて",
+      "meaning": "vertical",
+      "meaningKo": "세로"
+    },
+    {
+      "id": "w1d6-020",
+      "family": "従",
+      "kanji": "縦",
+      "word": "縦断",
+      "reading": "じゅうだん",
+      "meaning": "running through",
+      "meaningKo": "종단"
+    },
+    {
+      "id": "w1d6-021",
+      "family": "盾",
+      "kanji": "盾",
+      "word": "盾",
+      "reading": "たて",
+      "meaning": "shield",
+      "meaningKo": "방패"
+    },
+    {
+      "id": "w1d6-022",
+      "family": "盾",
+      "kanji": "循",
+      "word": "循環",
+      "reading": "じゅんかん",
+      "meaning": "circulation",
+      "meaningKo": "순환"
+    },
+    {
+      "id": "w1d6-023",
+      "family": "盾",
+      "kanji": "循",
+      "word": "悪循環",
+      "reading": "あくじゅんかん",
+      "meaning": "vicious circle",
+      "meaningKo": "악순환"
+    },
+    {
+      "id": "w1d6-024",
+      "family": "需",
+      "kanji": "需",
+      "word": "需要",
+      "reading": "じゅよう",
+      "meaning": "demand",
+      "meaningKo": "수요"
+    },
+    {
+      "id": "w1d6-025",
+      "family": "需",
+      "kanji": "需",
+      "word": "必需品",
+      "reading": "ひつじゅひん",
+      "meaning": "necessities",
+      "meaningKo": "필수품"
+    },
+    {
+      "id": "w1d6-026",
+      "family": "需",
+      "kanji": "儒",
+      "word": "儒教",
+      "reading": "じゅきょう",
+      "meaning": "Confucianism",
+      "meaningKo": "유교"
+    },
+    {
+      "id": "w1d6-027",
+      "family": "孤",
+      "kanji": "孤",
+      "word": "孤独な",
+      "reading": "こどく",
+      "meaning": "lonely",
+      "meaningKo": "고독한"
+    },
+    {
+      "id": "w1d6-028",
+      "family": "孤",
+      "kanji": "孤",
+      "word": "孤立",
+      "reading": "こりつ",
+      "meaning": "isolation",
+      "meaningKo": "고립"
+    },
+    {
+      "id": "w1d6-029",
+      "family": "充",
+      "kanji": "充",
+      "word": "補充する",
+      "reading": "ほじゅうする",
+      "meaning": "replenish",
+      "meaningKo": "보충하다"
+    },
+    {
+      "id": "w1d6-030",
+      "family": "充",
+      "kanji": "充",
+      "word": "充実する",
+      "reading": "じゅうじつする",
+      "meaning": "be fulfilling",
+      "meaningKo": "충실하다"
+    },
+    {
+      "id": "w1d6-031",
+      "family": "充",
+      "kanji": "銃",
+      "word": "銃",
+      "reading": "じゅう",
+      "meaning": "gun; rifle",
+      "meaningKo": "총"
+    },
+    {
+      "id": "w1d6-032",
+      "family": "充",
+      "kanji": "銃",
+      "word": "銃弾",
+      "reading": "じゅうだん",
+      "meaning": "bullet",
+      "meaningKo": "총탄"
+    },
+    {
+      "id": "w1d6-033",
+      "family": "沿",
+      "kanji": "沿",
+      "word": "沿岸",
+      "reading": "えんがん",
+      "meaning": "coast",
+      "meaningKo": "연안"
+    },
+    {
+      "id": "w1d6-034",
+      "family": "沿",
+      "kanji": "沿",
+      "word": "沿線",
+      "reading": "えんせん",
+      "meaning": "along a railway line",
+      "meaningKo": "연선"
+    },
+    {
+      "id": "w1d6-035",
+      "family": "鉛",
+      "kanji": "鉛",
+      "word": "鉛筆",
+      "reading": "えんぴつ",
+      "meaning": "pencil",
+      "meaningKo": "연필"
+    },
+    {
+      "id": "w1d6-036",
+      "family": "鉛",
+      "kanji": "鉛",
+      "word": "亜鉛",
+      "reading": "あえん",
+      "meaning": "zinc",
+      "meaningKo": "아연"
+    },
+    {
+      "id": "w1d6-037",
+      "family": "弊",
+      "kanji": "弊",
+      "word": "弊社",
+      "reading": "へいしゃ",
+      "meaning": "our company",
+      "meaningKo": "당사"
+    },
+    {
+      "id": "w1d6-038",
+      "family": "弊",
+      "kanji": "弊",
+      "word": "弊害",
+      "reading": "へいがい",
+      "meaning": "harmful effect",
+      "meaningKo": "폐해"
+    },
+    {
+      "id": "w1d6-039",
+      "family": "撤",
+      "kanji": "徹",
+      "word": "徹夜",
+      "reading": "てつや",
+      "meaning": "all night",
+      "meaningKo": "철야"
+    },
+    {
+      "id": "w1d6-040",
+      "family": "撤",
+      "kanji": "撤",
+      "word": "撤回",
+      "reading": "てっかい",
+      "meaning": "withdrawal",
+      "meaningKo": "철회"
+    },
+    {
+      "id": "w1d6-041",
+      "family": "揺",
+      "kanji": "揺",
+      "word": "動揺",
+      "reading": "どうよう",
+      "meaning": "disturbance; agitation",
+      "meaningKo": "동요"
+    },
+    {
+      "id": "w1d6-042",
+      "family": "揺",
+      "kanji": "謡",
+      "word": "民謡",
+      "reading": "みんよう",
+      "meaning": "folk song",
+      "meaningKo": "민요"
+    },
+    {
+      "id": "w1d6-043",
+      "family": "髄",
+      "kanji": "髄",
+      "word": "骨髄",
+      "reading": "こつずい",
+      "meaning": "bone marrow",
+      "meaningKo": "골수"
+    },
+    {
+      "id": "w1d6-044",
+      "family": "源",
+      "kanji": "源",
+      "word": "源泉",
+      "reading": "げんせん",
+      "meaning": "source",
+      "meaningKo": "원천"
+    },
+    {
+      "id": "w1d6-045",
+      "family": "源",
+      "kanji": "源",
+      "word": "源流",
+      "reading": "げんりゅう",
+      "meaning": "headwaters",
+      "meaningKo": "원류"
+    },
+    {
+      "id": "w1d6-046",
+      "family": "睡",
+      "kanji": "睡",
+      "word": "睡眠",
+      "reading": "すいみん",
+      "meaning": "sleep",
+      "meaningKo": "수면"
+    },
+    {
+      "id": "w1d6-047",
+      "family": "睡",
+      "kanji": "睡",
+      "word": "熟睡",
+      "reading": "じゅくすい",
+      "meaning": "sound sleep",
+      "meaningKo": "숙면"
+    }
+  ]
+}

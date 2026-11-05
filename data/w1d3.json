@@ -1,0 +1,701 @@
+{
+  "id": "w1d3",
+  "week": 1,
+  "day": 3,
+  "title": "Week 1 · Day 3",
+  "subtitle": "同じ部分・同じ音読みをもつ漢字",
+  "families": [
+    {
+      "id": "険",
+      "base": "険",
+      "reading": "",
+      "title": "険 family",
+      "characters": [
+        "験",
+        "険",
+        "検",
+        "剣"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "講",
+      "base": "講",
+      "reading": "",
+      "title": "講 family",
+      "characters": [
+        "講",
+        "構",
+        "購",
+        "溝"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "標",
+      "base": "標",
+      "reading": "",
+      "title": "標 family",
+      "characters": [
+        "標",
+        "票",
+        "漂"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "低",
+      "base": "低",
+      "reading": "",
+      "title": "低 family",
+      "characters": [
+        "低",
+        "底",
+        "抵",
+        "邸"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "菜",
+      "base": "菜",
+      "reading": "",
+      "title": "菜 family",
+      "characters": [
+        "菜",
+        "採",
+        "彩"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "同",
+      "base": "同",
+      "reading": "",
+      "title": "同 family",
+      "characters": [
+        "同",
+        "銅",
+        "胴"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "歴",
+      "base": "歴",
+      "reading": "",
+      "title": "歴 family",
+      "characters": [
+        "歴",
+        "暦"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "県",
+      "base": "県",
+      "reading": "",
+      "title": "県 family",
+      "characters": [
+        "県",
+        "懸"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "表",
+      "base": "表",
+      "reading": "",
+      "title": "表 family",
+      "characters": [
+        "表",
+        "俵"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "輸",
+      "base": "輸",
+      "reading": "",
+      "title": "輸 family",
+      "characters": [
+        "輸",
+        "愉",
+        "癒",
+        "諭"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "倉",
+      "base": "倉",
+      "reading": "",
+      "title": "倉 family",
+      "characters": [
+        "倉",
+        "創"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    }
+  ],
+  "words": [
+    {
+      "id": "w1d3-001",
+      "family": "険",
+      "kanji": "験",
+      "word": "体験",
+      "reading": "たいけん",
+      "meaning": "experience",
+      "meaningKo": "체험"
+    },
+    {
+      "id": "w1d3-002",
+      "family": "険",
+      "kanji": "験",
+      "word": "実験",
+      "reading": "じっけん",
+      "meaning": "experiment",
+      "meaningKo": "실험"
+    },
+    {
+      "id": "w1d3-003",
+      "family": "険",
+      "kanji": "険",
+      "word": "危険な",
+      "reading": "きけん",
+      "meaning": "dangerous",
+      "meaningKo": "위험한"
+    },
+    {
+      "id": "w1d3-004",
+      "family": "険",
+      "kanji": "険",
+      "word": "険悪な",
+      "reading": "けんあく",
+      "meaning": "hostile; tense",
+      "meaningKo": "험악한"
+    },
+    {
+      "id": "w1d3-005",
+      "family": "険",
+      "kanji": "検",
+      "word": "検査",
+      "reading": "けんさ",
+      "meaning": "examination; inspection",
+      "meaningKo": "검사"
+    },
+    {
+      "id": "w1d3-006",
+      "family": "険",
+      "kanji": "検",
+      "word": "点検",
+      "reading": "てんけん",
+      "meaning": "inspection",
+      "meaningKo": "점검"
+    },
+    {
+      "id": "w1d3-007",
+      "family": "険",
+      "kanji": "剣",
+      "word": "真剣な",
+      "reading": "しんけん",
+      "meaning": "serious; earnest",
+      "meaningKo": "진지한"
+    },
+    {
+      "id": "w1d3-008",
+      "family": "険",
+      "kanji": "剣",
+      "word": "剣道",
+      "reading": "けんどう",
+      "meaning": "kendo",
+      "meaningKo": "검도"
+    },
+    {
+      "id": "w1d3-009",
+      "family": "講",
+      "kanji": "講",
+      "word": "講義",
+      "reading": "こうぎ",
+      "meaning": "lecture",
+      "meaningKo": "강의"
+    },
+    {
+      "id": "w1d3-010",
+      "family": "講",
+      "kanji": "講",
+      "word": "聴講する",
+      "reading": "ちょうこうする",
+      "meaning": "attend a lecture",
+      "meaningKo": "청강하다"
+    },
+    {
+      "id": "w1d3-011",
+      "family": "講",
+      "kanji": "構",
+      "word": "構成",
+      "reading": "こうせい",
+      "meaning": "composition",
+      "meaningKo": "구성"
+    },
+    {
+      "id": "w1d3-012",
+      "family": "講",
+      "kanji": "構",
+      "word": "構造",
+      "reading": "こうぞう",
+      "meaning": "structure",
+      "meaningKo": "구조"
+    },
+    {
+      "id": "w1d3-013",
+      "family": "講",
+      "kanji": "購",
+      "word": "購買",
+      "reading": "こうばい",
+      "meaning": "purchasing",
+      "meaningKo": "구매"
+    },
+    {
+      "id": "w1d3-014",
+      "family": "講",
+      "kanji": "購",
+      "word": "購入",
+      "reading": "こうにゅう",
+      "meaning": "purchase",
+      "meaningKo": "구입"
+    },
+    {
+      "id": "w1d3-015",
+      "family": "講",
+      "kanji": "溝",
+      "word": "溝",
+      "reading": "みぞ",
+      "meaning": "ditch",
+      "meaningKo": "도랑"
+    },
+    {
+      "id": "w1d3-016",
+      "family": "講",
+      "kanji": "溝",
+      "word": "排水溝",
+      "reading": "はいすいこう",
+      "meaning": "drain",
+      "meaningKo": "배수구"
+    },
+    {
+      "id": "w1d3-017",
+      "family": "標",
+      "kanji": "標",
+      "word": "目標",
+      "reading": "もくひょう",
+      "meaning": "goal",
+      "meaningKo": "목표"
+    },
+    {
+      "id": "w1d3-018",
+      "family": "標",
+      "kanji": "標",
+      "word": "標準",
+      "reading": "ひょうじゅん",
+      "meaning": "standard",
+      "meaningKo": "표준"
+    },
+    {
+      "id": "w1d3-019",
+      "family": "標",
+      "kanji": "票",
+      "word": "票",
+      "reading": "ひょう",
+      "meaning": "vote",
+      "meaningKo": "표"
+    },
+    {
+      "id": "w1d3-020",
+      "family": "標",
+      "kanji": "票",
+      "word": "投票",
+      "reading": "とうひょう",
+      "meaning": "voting",
+      "meaningKo": "투표"
+    },
+    {
+      "id": "w1d3-021",
+      "family": "標",
+      "kanji": "漂",
+      "word": "漂流",
+      "reading": "ひょうりゅう",
+      "meaning": "drifting",
+      "meaningKo": "표류"
+    },
+    {
+      "id": "w1d3-022",
+      "family": "標",
+      "kanji": "漂",
+      "word": "漂白剤",
+      "reading": "ひょうはくざい",
+      "meaning": "bleach",
+      "meaningKo": "표백제"
+    },
+    {
+      "id": "w1d3-023",
+      "family": "低",
+      "kanji": "低",
+      "word": "低下",
+      "reading": "ていか",
+      "meaning": "decline; drop",
+      "meaningKo": "저하"
+    },
+    {
+      "id": "w1d3-024",
+      "family": "低",
+      "kanji": "低",
+      "word": "低気圧",
+      "reading": "ていきあつ",
+      "meaning": "low atmospheric pressure",
+      "meaningKo": "저기압"
+    },
+    {
+      "id": "w1d3-025",
+      "family": "低",
+      "kanji": "底",
+      "word": "海底",
+      "reading": "かいてい",
+      "meaning": "seabed",
+      "meaningKo": "해저"
+    },
+    {
+      "id": "w1d3-026",
+      "family": "低",
+      "kanji": "底",
+      "word": "徹底",
+      "reading": "てってい",
+      "meaning": "thoroughness",
+      "meaningKo": "철저"
+    },
+    {
+      "id": "w1d3-027",
+      "family": "低",
+      "kanji": "抵",
+      "word": "抵抗",
+      "reading": "ていこう",
+      "meaning": "resistance",
+      "meaningKo": "저항"
+    },
+    {
+      "id": "w1d3-028",
+      "family": "低",
+      "kanji": "抵",
+      "word": "大抵の",
+      "reading": "たいてい",
+      "meaning": "most; generally",
+      "meaningKo": "대개의"
+    },
+    {
+      "id": "w1d3-029",
+      "family": "低",
+      "kanji": "邸",
+      "word": "邸宅",
+      "reading": "ていたく",
+      "meaning": "mansion",
+      "meaningKo": "저택"
+    },
+    {
+      "id": "w1d3-030",
+      "family": "低",
+      "kanji": "邸",
+      "word": "官邸",
+      "reading": "かんてい",
+      "meaning": "official residence",
+      "meaningKo": "관저"
+    },
+    {
+      "id": "w1d3-031",
+      "family": "菜",
+      "kanji": "菜",
+      "word": "野菜",
+      "reading": "やさい",
+      "meaning": "vegetables",
+      "meaningKo": "야채"
+    },
+    {
+      "id": "w1d3-032",
+      "family": "菜",
+      "kanji": "菜",
+      "word": "菜食主義",
+      "reading": "さいしょくしゅぎ",
+      "meaning": "vegetarianism",
+      "meaningKo": "채식주의"
+    },
+    {
+      "id": "w1d3-033",
+      "family": "菜",
+      "kanji": "採",
+      "word": "採用",
+      "reading": "さいよう",
+      "meaning": "recruitment; employment",
+      "meaningKo": "채용"
+    },
+    {
+      "id": "w1d3-034",
+      "family": "菜",
+      "kanji": "採",
+      "word": "採算",
+      "reading": "さいさん",
+      "meaning": "profitability",
+      "meaningKo": "채산"
+    },
+    {
+      "id": "w1d3-035",
+      "family": "菜",
+      "kanji": "彩",
+      "word": "色彩",
+      "reading": "しきさい",
+      "meaning": "colors",
+      "meaningKo": "색채"
+    },
+    {
+      "id": "w1d3-036",
+      "family": "菜",
+      "kanji": "彩",
+      "word": "多彩な",
+      "reading": "たさい",
+      "meaning": "colorful; varied",
+      "meaningKo": "다채로운"
+    },
+    {
+      "id": "w1d3-037",
+      "family": "同",
+      "kanji": "同",
+      "word": "同意",
+      "reading": "どうい",
+      "meaning": "agreement",
+      "meaningKo": "동의"
+    },
+    {
+      "id": "w1d3-038",
+      "family": "同",
+      "kanji": "同",
+      "word": "同情",
+      "reading": "どうじょう",
+      "meaning": "sympathy",
+      "meaningKo": "동정"
+    },
+    {
+      "id": "w1d3-039",
+      "family": "同",
+      "kanji": "銅",
+      "word": "銅像",
+      "reading": "どうぞう",
+      "meaning": "bronze statue",
+      "meaningKo": "동상"
+    },
+    {
+      "id": "w1d3-040",
+      "family": "同",
+      "kanji": "銅",
+      "word": "銅メダル",
+      "reading": "どうめだる",
+      "meaning": "bronze medal",
+      "meaningKo": "동메달"
+    },
+    {
+      "id": "w1d3-041",
+      "family": "同",
+      "kanji": "胴",
+      "word": "胴",
+      "reading": "どう",
+      "meaning": "trunk; torso",
+      "meaningKo": "몸통"
+    },
+    {
+      "id": "w1d3-042",
+      "family": "同",
+      "kanji": "胴",
+      "word": "胴体",
+      "reading": "どうたい",
+      "meaning": "body; fuselage",
+      "meaningKo": "동체"
+    },
+    {
+      "id": "w1d3-043",
+      "family": "歴",
+      "kanji": "歴",
+      "word": "履歴",
+      "reading": "りれき",
+      "meaning": "personal history",
+      "meaningKo": "이력"
+    },
+    {
+      "id": "w1d3-044",
+      "family": "歴",
+      "kanji": "歴",
+      "word": "経歴",
+      "reading": "けいれき",
+      "meaning": "career; history",
+      "meaningKo": "경력"
+    },
+    {
+      "id": "w1d3-045",
+      "family": "歴",
+      "kanji": "暦",
+      "word": "西暦",
+      "reading": "せいれき",
+      "meaning": "Western calendar",
+      "meaningKo": "서력"
+    },
+    {
+      "id": "w1d3-046",
+      "family": "歴",
+      "kanji": "暦",
+      "word": "還暦",
+      "reading": "かんれき",
+      "meaning": "60th birthday",
+      "meaningKo": "환갑"
+    },
+    {
+      "id": "w1d3-047",
+      "family": "県",
+      "kanji": "県",
+      "word": "県庁",
+      "reading": "けんちょう",
+      "meaning": "prefectural office",
+      "meaningKo": "현청"
+    },
+    {
+      "id": "w1d3-048",
+      "family": "県",
+      "kanji": "県",
+      "word": "都道府県",
+      "reading": "とどうふけん",
+      "meaning": "prefectures of Japan",
+      "meaningKo": "도도부현"
+    },
+    {
+      "id": "w1d3-049",
+      "family": "県",
+      "kanji": "懸",
+      "word": "懸命な",
+      "reading": "けんめい",
+      "meaning": "earnest; strenuous",
+      "meaningKo": "필사적인"
+    },
+    {
+      "id": "w1d3-050",
+      "family": "県",
+      "kanji": "懸",
+      "word": "懸賞",
+      "reading": "けんしょう",
+      "meaning": "prize; contest",
+      "meaningKo": "현상"
+    },
+    {
+      "id": "w1d3-051",
+      "family": "表",
+      "kanji": "表",
+      "word": "時刻表",
+      "reading": "じこくひょう",
+      "meaning": "timetable",
+      "meaningKo": "시간표"
+    },
+    {
+      "id": "w1d3-052",
+      "family": "表",
+      "kanji": "表",
+      "word": "辞表",
+      "reading": "じひょう",
+      "meaning": "resignation",
+      "meaningKo": "사직서"
+    },
+    {
+      "id": "w1d3-053",
+      "family": "表",
+      "kanji": "俵",
+      "word": "土俵",
+      "reading": "どひょう",
+      "meaning": "sumo ring",
+      "meaningKo": "씨름판; 스모 경기장"
+    },
+    {
+      "id": "w1d3-054",
+      "family": "輸",
+      "kanji": "輸",
+      "word": "輸出入",
+      "reading": "ゆしゅつにゅう",
+      "meaning": "exports and imports",
+      "meaningKo": "수출입"
+    },
+    {
+      "id": "w1d3-055",
+      "family": "輸",
+      "kanji": "輸",
+      "word": "運輸",
+      "reading": "うんゆ",
+      "meaning": "transportation",
+      "meaningKo": "운수"
+    },
+    {
+      "id": "w1d3-056",
+      "family": "輸",
+      "kanji": "愉",
+      "word": "愉快な",
+      "reading": "ゆかい",
+      "meaning": "pleasant",
+      "meaningKo": "유쾌한"
+    },
+    {
+      "id": "w1d3-057",
+      "family": "輸",
+      "kanji": "癒",
+      "word": "治癒",
+      "reading": "ちゆ",
+      "meaning": "healing",
+      "meaningKo": "치유"
+    },
+    {
+      "id": "w1d3-058",
+      "family": "輸",
+      "kanji": "癒",
+      "word": "癒着",
+      "reading": "ゆちゃく",
+      "meaning": "adhesion; collusion",
+      "meaningKo": "유착"
+    },
+    {
+      "id": "w1d3-059",
+      "family": "輸",
+      "kanji": "諭",
+      "word": "教諭",
+      "reading": "きょうゆ",
+      "meaning": "teacher",
+      "meaningKo": "교사"
+    },
+    {
+      "id": "w1d3-060",
+      "family": "倉",
+      "kanji": "倉",
+      "word": "倉庫",
+      "reading": "そうこ",
+      "meaning": "warehouse",
+      "meaningKo": "창고"
+    },
+    {
+      "id": "w1d3-061",
+      "family": "倉",
+      "kanji": "創",
+      "word": "創作",
+      "reading": "そうさく",
+      "meaning": "creation",
+      "meaningKo": "창작"
+    },
+    {
+      "id": "w1d3-062",
+      "family": "倉",
+      "kanji": "創",
+      "word": "創立",
+      "reading": "そうりつ",
+      "meaning": "founding",
+      "meaningKo": "창립"
+    }
+  ]
+}

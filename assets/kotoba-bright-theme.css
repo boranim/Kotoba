@@ -1,0 +1,130 @@
+.family-insight { background: #DFF7FB; }
+.family-insight p { color: #395966; }
+.text-btn { color: #2549BD; }
+.count { background: #FFE5A6; color: #6B4B16; }
+.family-comparison { background: #FFF4DA; border-color: #EDD4A6; }
+.comparison-heading h3 .jp, .comparison-heading p,
+.comparison-legend, .kanji-card-label, .comparison-examples button > .jp:last-child,
+.comparison-examples small { color: #75685D; }
+.kanji-comparison-card { background: var(--paper); border-color: var(--line); }
+/* Preserve var(--kanji-tone): the app assigns per-kanji differentiation. */
+.kanji-select:not(:disabled):hover { background: #EEF9FF; }
+.comparison-examples { border-top-color: var(--line); }
+.comparison-examples button { border-bottom-color: #F1E7D9; }
+.kanji-group-heading { background: #FFF0D0; border-top-color: #EAD6B5; border-bottom-color: #EAD6B5; }
+.kanji-group-character { background: var(--paper); border-color: var(--line); }
+.kanji-group-heading small { color: #78675C; }
+.kanji-word-group .vocab-row:last-child { border-bottom-color: var(--line); }
+
+/* Interactive component inspector, without overriding stroke colors */
+.kanji-explorer { background: #F0F9FF; border-color: #CFE6F6; }
+.diagram { background-color: #FFFDF8; background-image: linear-gradient(transparent 49.5%, #DDE6F5 50%, transparent 50.5%), linear-gradient(90deg, transparent 49.5%, #DDE6F5 50%, transparent 50.5%); }
+.diagram svg text { fill: #8F94A6; }
+.component-buttons button { background: var(--paper); border-color: var(--line); }
+.component-buttons button.active { background: #FFE092; border-color: #FF7A1A; color: #6F3900; }
+.explorer-body p, .explorer-note p { color: #756A5E; }
+.explorer-note { border-top-color: var(--line); }
+
+/* Vocabulary */
+.vocab-table, .flashcard, .study-setup, .week, .panel, .word-modal { background: var(--paper); border-color: var(--line); }
+.table-heading { background: #FFF0CB; color: #6D5745; }
+.vocab-row { border-bottom-color: #EFE4D4; }
+.vocab-row:hover { background: #FFF6DE; }
+.reading-cell, .meaning-cell, .family-tag { color: #6B6057; }
+.search { background: var(--paper); color: #74695F; }
+.search input { color: var(--theme-text); }
+.search input::placeholder { color: #9C8F83; }
+.search-hint { background: #FFF0CB; }
+.toggle { color: #756C62; }
+.toggle.on, .language-toggle.enabled { background: #DFF7FB; color: #145B81; }
+.language-toggle { border-color: var(--line); color: #6B6057; }
+.icon-btn { color: #756A76; }
+.icon-btn:hover { background: #E5F5FF; color: var(--theme-blue); }
+.icon-btn.starred { color: var(--theme-orange); }
+
+/* Flashcards, quizzes, feedback */
+.card-prompt { color: var(--theme-blue); }
+.prompt-hint, .session-meta { color: #7A6D61; }
+.answer-reading, .detail-reading { color: #0C839C; }
+.answer-area p { color: #655C54; }
+.answer-area .answer-note { background: #EAF8FF; }
+.ratings button { background: var(--paper); border-color: var(--line); }
+.ratings button:hover { background: #FFF0CB; }
+.ratings button:first-child { color: #B64B46; border-color: #E9A9A3; }
+.ratings button:nth-child(3) { background: #DEFAE9; border-color: #65CBA9; }
+.ratings small { color: #796D61; }
+.answer-form input { background: var(--paper); color: var(--theme-text); border-color: #D9CBB6; }
+.answer-form input::placeholder { color: #A6998A; }
+.choice { background: var(--paper); border-color: var(--line); }
+.choice > span { color: #786D61; }
+.choice:hover { background: #FFF0CB; }
+.choice.right, .feedback:not(.wrong) { background: #DDF9E9; border-color: #38BC8C; }
+.choice.wrong, .feedback.wrong { background: #FFE7DD; border-color: #EA8873; }
+.selection-item, .compact-study-setup .selection-item { background: var(--paper); border-color: var(--line); }
+.selection-item:hover { border-color: var(--theme-cyan); }
+.selection-item.chosen { background: #DDF8FF; border-color: var(--theme-cyan); box-shadow: 0 0 0 1px var(--theme-cyan); }
+.selection-item > svg { color: var(--theme-blue); }
+.selection-item small, .selection-field legend, .setup-context { color: #71665C; }
+.setup-icon { background: #E2F8FF; color: var(--theme-blue); }
+.study-setup p, .setup-controls label { color: #796E61; }
+select { background: var(--paper); border-color: var(--line); color: var(--theme-text); }
+
+/* Planning, settings and overlays */
+.day { border-color: var(--line); color: #897A6A; }
+.day.available { background: #E0F8FC; border-color: #34C5D6; color: #145D73; }
+.day:hover { background: #FFF0CB; }
+.week-title, .week-title small { color: #74665A; }
+.plan-day.is-studied .day, .plan-day.is-studied .plan-studied-button { background: #E0FAEB; border-color: #42BA91; color: #196F55; }
+.plan-studied-button { color: #867A6A; border-color: var(--line); }
+.panel p, .notice { color: #776C60; }
+.panel a, summary { color: var(--theme-blue); }
+.notice { background: #FFF0D2; }
+textarea { background: var(--paper); border-color: var(--line); color: var(--theme-text); }
+.import-preview { background: #E5F7FF; }
+.modal-backdrop { background: #25264068; }
+.word-modal h3 { color: #74685F; }
+.toast { background: var(--theme-blue); color: white; }
+.toast button { color: #DFE9FF; }
+.phone-preview-btn { background: #EAF7FF; color: var(--theme-blue); border-color: #CEE5FB; }
+.phone-preview-btn:hover { background: #D9EFFF; }
+.phone-preview-overlay { background: #F1EBDD; }
+.phone-preview-toolbar > div > span, .phone-preview-help { color: #73665B; }
+.phone-frame { background: #2A3150; border-color: #252C49; box-shadow: 0 20px 70px #29265030; }
+.phone-frame iframe { background: #FBF7F0; }
+.loading, .empty { color: #786C60; }
+.swipe-hint { color: #2549BD; }
+.families::-webkit-scrollbar-thumb, .kanji-comparison-grid::-webkit-scrollbar-thumb,
+.days::-webkit-scrollbar-thumb, .selection-items::-webkit-scrollbar-thumb,
+.choices::-webkit-scrollbar-thumb, .vocab-table::-webkit-scrollbar-thumb,
+.week-buttons::-webkit-scrollbar-thumb, .lesson-day-buttons::-webkit-scrollbar-thumb { background: #E7B7C9; }
+.mobile-nav { background: #FFFDF8F5; border-top-color: var(--line); }
+.mobile-nav button { color: #87796D; }
+.mobile-nav button.active { color: var(--theme-blue); }
+.mobile-brand { color: var(--theme-blue); }
+
+/* The original CSS has a later mobile hero gradient that hardcodes sage. */
+@media (max-width: 650px) {
+  .hero-copy { background: linear-gradient(90deg, #2846D8 35%, #2846D800); }
+}
+
+/* === UNIFIED NEUTRAL SURFACES ===
+   Cool-white canvas + pure-white surfaces. Yellow is reserved for accents,
+   not structural backgrounds. Kanji SVG/component colors are untouched. */
+:root {
+  --theme-bg: #F7F8FC;
+  --paper: #FFFFFF;
+  --line: #E3E6F0;
+  --muted: #697286;
+  --theme-text: #282C3D;
+}
+html, body, .app { background: var(--theme-bg); color: var(--theme-text); }
+.sidebar, .topbar, .mobile-nav { background: #FFFFFF; border-color: var(--line); }
+.mobile-nav { background: #FFFFFFF5; }
+.phone-preview-overlay, .phone-frame iframe { background: var(--theme-bg); }
+.lesson-picker, .family-comparison, .kanji-explorer,
+.family-insight { background: #FFFFFF; border-color: var(--line); }
+.diagram { background-color: #FFFFFF; }
+.kanji-group-heading, .table-heading { background: #F1F3FA; border-color: var(--line); }
+.comparison-examples button, .family-member, .family-flow,
+.family-study { border-color: var(--line); }
+/* Keep selected controls, feedback and accents colorful. */

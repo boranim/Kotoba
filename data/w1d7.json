@@ -1,0 +1,271 @@
+{
+  "id": "w1d7",
+  "week": 1,
+  "day": 7,
+  "title": "Week 1 · Day 7",
+  "subtitle": "同じ部分・同じ音読みをもつ漢字",
+  "families": [
+    {
+      "id": "憩",
+      "base": "憩",
+      "reading": "",
+      "title": "憩 family",
+      "characters": [
+        "憩"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "粧",
+      "base": "粧",
+      "reading": "",
+      "title": "粧 family",
+      "characters": [
+        "粧"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "潔",
+      "base": "潔",
+      "reading": "",
+      "title": "潔 family",
+      "characters": [
+        "潔"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "缶",
+      "base": "缶",
+      "reading": "",
+      "title": "缶 family",
+      "characters": [
+        "缶"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "瓶",
+      "base": "瓶",
+      "reading": "",
+      "title": "瓶 family",
+      "characters": [
+        "瓶"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "糖",
+      "base": "糖",
+      "reading": "",
+      "title": "糖 family",
+      "characters": [
+        "糖"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "扉",
+      "base": "扉",
+      "reading": "",
+      "title": "扉 family",
+      "characters": [
+        "扉"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    },
+    {
+      "id": "浄",
+      "base": "浄",
+      "reading": "",
+      "title": "浄 family",
+      "characters": [
+        "浄"
+      ],
+      "note": "Kanji grouped by shared components or readings, following the textbook."
+    }
+  ],
+  "words": [
+    {
+      "id": "w1d7-001",
+      "family": "憩",
+      "kanji": "憩",
+      "word": "休憩",
+      "reading": "きゅうけい",
+      "meaning": "break; rest",
+      "meaningKo": "휴식"
+    },
+    {
+      "id": "w1d7-002",
+      "family": "憩",
+      "kanji": "憩",
+      "word": "憩い",
+      "reading": "いこい",
+      "meaning": "relaxation",
+      "meaningKo": "휴식"
+    },
+    {
+      "id": "w1d7-003",
+      "family": "粧",
+      "kanji": "粧",
+      "word": "化粧品",
+      "reading": "けしょうひん",
+      "meaning": "cosmetics",
+      "meaningKo": "화장품"
+    },
+    {
+      "id": "w1d7-004",
+      "family": "粧",
+      "kanji": "粧",
+      "word": "化粧室",
+      "reading": "けしょうしつ",
+      "meaning": "restroom",
+      "meaningKo": "화장실"
+    },
+    {
+      "id": "w1d7-005",
+      "family": "潔",
+      "kanji": "潔",
+      "word": "清潔な",
+      "reading": "せいけつ",
+      "meaning": "clean",
+      "meaningKo": "청결한"
+    },
+    {
+      "id": "w1d7-006",
+      "family": "潔",
+      "kanji": "潔",
+      "word": "不潔な",
+      "reading": "ふけつ",
+      "meaning": "unclean",
+      "meaningKo": "불결한"
+    },
+    {
+      "id": "w1d7-007",
+      "family": "潔",
+      "kanji": "潔",
+      "word": "簡潔な",
+      "reading": "かんけつ",
+      "meaning": "concise",
+      "meaningKo": "간결한"
+    },
+    {
+      "id": "w1d7-008",
+      "family": "缶",
+      "kanji": "缶",
+      "word": "空き缶",
+      "reading": "あきかん",
+      "meaning": "empty can",
+      "meaningKo": "빈 깡통"
+    },
+    {
+      "id": "w1d7-009",
+      "family": "缶",
+      "kanji": "缶",
+      "word": "缶詰",
+      "reading": "かんづめ",
+      "meaning": "canned food",
+      "meaningKo": "통조림"
+    },
+    {
+      "id": "w1d7-010",
+      "family": "瓶",
+      "kanji": "瓶",
+      "word": "瓶",
+      "reading": "びん",
+      "meaning": "bottle",
+      "meaningKo": "병"
+    },
+    {
+      "id": "w1d7-011",
+      "family": "瓶",
+      "kanji": "瓶",
+      "word": "花瓶",
+      "reading": "かびん",
+      "meaning": "vase",
+      "meaningKo": "꽃병"
+    },
+    {
+      "id": "w1d7-012",
+      "family": "瓶",
+      "kanji": "瓶",
+      "word": "瓶詰",
+      "reading": "びんづめ",
+      "meaning": "bottled",
+      "meaningKo": "병에 담음"
+    },
+    {
+      "id": "w1d7-013",
+      "family": "瓶",
+      "kanji": "瓶",
+      "word": "空き瓶",
+      "reading": "あきびん",
+      "meaning": "empty bottle",
+      "meaningKo": "빈 병"
+    },
+    {
+      "id": "w1d7-014",
+      "family": "糖",
+      "kanji": "糖",
+      "word": "砂糖",
+      "reading": "さとう",
+      "meaning": "sugar",
+      "meaningKo": "설탕"
+    },
+    {
+      "id": "w1d7-015",
+      "family": "糖",
+      "kanji": "糖",
+      "word": "糖分",
+      "reading": "とうぶん",
+      "meaning": "sugar content",
+      "meaningKo": "당분"
+    },
+    {
+      "id": "w1d7-016",
+      "family": "糖",
+      "kanji": "糖",
+      "word": "糖尿病",
+      "reading": "とうにょうびょう",
+      "meaning": "diabetes",
+      "meaningKo": "당뇨병"
+    },
+    {
+      "id": "w1d7-017",
+      "family": "扉",
+      "kanji": "扉",
+      "word": "扉",
+      "reading": "とびら",
+      "meaning": "door",
+      "meaningKo": "문"
+    },
+    {
+      "id": "w1d7-018",
+      "family": "扉",
+      "kanji": "扉",
+      "word": "自動扉",
+      "reading": "じどうとびら",
+      "meaning": "automatic door",
+      "meaningKo": "자동문"
+    },
+    {
+      "id": "w1d7-019",
+      "family": "浄",
+      "kanji": "浄",
+      "word": "洗浄剤",
+      "reading": "せんじょうざい",
+      "meaning": "detergent",
+      "meaningKo": "세정제"
+    },
+    {
+      "id": "w1d7-020",
+      "family": "浄",
+      "kanji": "浄",
+      "word": "浄化する",
+      "reading": "じょうかする",
+      "meaning": "purify",
+      "meaningKo": "정화하다"
+    }
+  ]
+}

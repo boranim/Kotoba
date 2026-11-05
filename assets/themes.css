@@ -1,0 +1,342 @@
+/* Kotoba multi-theme colors. Loaded by index.js after index.css.
+   UI theme colors only; kanji SVG stroke colors stay unchanged. */
+html[data-theme="cobalt-candy"] {
+ --theme-bg: #F6F7FC; --theme-text: #26253A; --theme-blue: #3048E8;
+ --theme-cyan: #25C8CF; --theme-yellow: #FFCD35; --theme-orange: #FF813A;
+ --theme-pink: #FF61A6; --theme-purple: #FF813A;
+ --green: #3048E8; --paper: #FFFFFF; --line: #E3E6F0;
+ --muted: #697286; --accent: #FF61A6;
+ --theme-soft: color-mix(in srgb, #3048E8 9%, white);
+ --theme-selected: color-mix(in srgb, #3048E8 14%, white);
+ --theme-selected-border: #3048E8;
+ --theme-primary-contrast: #FFFFFF;
+}
+html[data-theme="citrus-pop"] {
+ --theme-bg: #FAFBF5; --theme-text: #2E3228; --theme-blue: #FF802B;
+ --theme-cyan: #F44C8B; --theme-yellow: #16BFC6; --theme-orange: #6146D8;
+ --theme-pink: #B9DF30; --theme-purple: #6146D8;
+ --green: #FF802B; --paper: #FFFFFF; --line: #E3E6F0;
+ --muted: #697286; --accent: #B9DF30;
+ --theme-soft: color-mix(in srgb, #FF802B 9%, white);
+ --theme-selected: color-mix(in srgb, #FF802B 14%, white);
+ --theme-selected-border: #FF802B;
+ --theme-primary-contrast: #FFFFFF;
+}
+html[data-theme="riso-studio"] {
+ --theme-bg: #F7F7FA; --theme-text: #282740; --theme-blue: #3654C8;
+ --theme-cyan: #B04ADD; --theme-yellow: #F4C528; --theme-orange: #32C8B3;
+ --theme-pink: #FF654D; --theme-purple: #32C8B3;
+ --green: #3654C8; --paper: #FFFFFF; --line: #E3E6F0;
+ --muted: #697286; --accent: #FF654D;
+ --theme-soft: color-mix(in srgb, #3654C8 9%, white);
+ --theme-selected: color-mix(in srgb, #3654C8 14%, white);
+ --theme-selected-border: #3654C8;
+ --theme-primary-contrast: #FFFFFF;
+}
+html[data-theme="bubblegum-tech"] {
+ --theme-bg: #F9F7FC; --theme-text: #30273E; --theme-blue: #8857EC;
+ --theme-cyan: #FFC64B; --theme-yellow: #35CBE2; --theme-orange: #A4D842;
+ --theme-pink: #F34BA1; --theme-purple: #A4D842;
+ --green: #8857EC; --paper: #FFFFFF; --line: #E3E6F0;
+ --muted: #697286; --accent: #F34BA1;
+ --theme-soft: color-mix(in srgb, #8857EC 9%, white);
+ --theme-selected: color-mix(in srgb, #8857EC 14%, white);
+ --theme-selected-border: #8857EC;
+ --theme-primary-contrast: #FFFFFF;
+}
+html[data-theme="primary-playground"] {
+ --theme-bg: #F8F9FC; --theme-text: #252A35; --theme-blue: #2455EB;
+ --theme-cyan: #24C8C1; --theme-yellow: #FFD12A; --theme-orange: #9B50E8;
+ --theme-pink: #F44F42; --theme-purple: #9B50E8;
+ --green: #2455EB; --paper: #FFFFFF; --line: #E3E6F0;
+ --muted: #697286; --accent: #F44F42;
+ --theme-soft: color-mix(in srgb, #2455EB 9%, white);
+ --theme-selected: color-mix(in srgb, #2455EB 14%, white);
+ --theme-selected-border: #2455EB;
+ --theme-primary-contrast: #FFFFFF;
+}
+html[data-theme="midnight-ink"] {
+ color-scheme:dark;
+ --theme-bg:#101521; --theme-surface:#1C2433; --theme-panel:#222C3D;
+ --theme-text:#EEF1FA; --theme-blue:#89A2FF; --theme-cyan:#57D6E5;
+ --theme-yellow:#F6CF70; --theme-orange:#A995F9; --theme-pink:#F78AC7;
+ --theme-purple:#A995F9; --green:#89A2FF; --paper:#1C2433;
+ --line:#344054; --muted:#A9B6CC; --accent:#F78AC7;
+ --theme-soft:#27334B; --theme-selected:#303E60;
+ --theme-selected-border:#89A2FF; --theme-primary-contrast:#101521;
+}
+
+/* Normalize backgrounds, text, selection, and interactions across all themes. */
+html,body,.app {background:var(--theme-bg);color:var(--theme-text)}
+.sidebar,.topbar,.mobile-nav {background:#FFFFFF;border-color:var(--line)}
+.mobile-nav {background:#FFFFFFF5}
+.brand-symbol,.btn.primary,.hero,.toast {background:var(--theme-blue);color:white}
+.btn.primary {border-color:var(--theme-blue)}
+.btn.primary:hover {background:color-mix(in srgb,var(--theme-blue) 87%,black);border-color:color-mix(in srgb,var(--theme-blue) 87%,black)}
+.brand-symbol,.mobile-brand,.mobile-nav button.active,.stat-value,.card-prompt,.text-btn,.panel a,summary {color:var(--theme-blue)}
+.brand-symbol {color:white}
+.nav.active {background:var(--theme-selected);color:var(--theme-blue)}
+.nav:hover {background:var(--theme-soft)}
+.eyebrow,.side-note svg {color:var(--theme-pink)}
+.badge,.dot {background:var(--theme-orange)}
+.tiny-progress i,.session-progress i {background:var(--theme-cyan)}
+.family-bases button.selected,.family-card.selected,.lesson-day-buttons button.selected,.selection-item.chosen,.compact-study-setup .selection-item.chosen,.component-buttons button.active {
+ background:var(--theme-selected);border-color:var(--theme-blue);color:var(--theme-text);box-shadow:inset 0 0 0 1px var(--theme-blue);
+}
+.family-bases button:hover,.family-card:hover,.selection-item:hover {border-color:var(--theme-blue)}
+.week-buttons button.selected {background:var(--theme-blue);border-color:var(--theme-blue);color:white}
+.family-insight,.kanji-explorer,.lesson-picker,.family-comparison {background:#FFFFFF;border-color:var(--line)}
+.day-picker-toggle,.kanji-group-heading,.table-heading {background:var(--theme-soft);border-color:var(--line);color:var(--theme-text)}
+.vocab-table,.flashcard,.study-setup,.week,.panel,.word-modal,.family-card,.search,.choice,.selection-item,.kanji-comparison-card,.kanji-group-character,.component-buttons button,.ratings button,.family-bases button,.btn,.week-buttons button,.lesson-day-buttons button {background:#FFFFFF;border-color:var(--line)}
+.diagram {background-color:#FFFFFF}
+.phone-preview-overlay,.phone-frame iframe {background:var(--theme-bg)}
+.family-member-glyph,.setup-icon,.answer-area .answer-note,.import-preview {background:var(--theme-soft)}
+.family-member-glyph > span,.selection-item > svg,.setup-icon,.icon-btn:hover {color:var(--theme-blue)}
+.hero-copy {color:#FFFFFF}
+@media(max-width:650px){.hero-copy{background:linear-gradient(90deg,var(--theme-blue) 35%,transparent)}}
+/* Theme picker in Settings */
+.kotoba-theme-panel {grid-column:1/-1}
+.kotoba-theme-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:15px}
+.kotoba-theme-option {font:inherit;appearance:none;text-align:left;border:2px solid var(--line);background:white;color:var(--theme-text);border-radius:14px;padding:9px;cursor:pointer;min-width:0;transition:border-color .12s,box-shadow .12s}
+.kotoba-theme-option:hover {border-color:var(--theme-blue)}
+.kotoba-theme-option.selected {border-color:var(--theme-blue);box-shadow:0 0 0 1px var(--theme-blue)}
+.kotoba-theme-option:focus-visible {outline:2px solid var(--theme-blue);outline-offset:2px}
+.kotoba-theme-thumbnail {display:flex;flex-direction:column;gap:8px;padding:12px;border-radius:9px;border:1px solid #E3E6F0;min-height:70px}
+.kotoba-theme-thumbnail-bar {display:block;width:58%;height:15px;border-radius:5px}
+.kotoba-theme-thumbnail-card {display:flex;gap:4px;background:white;padding:7px;border-radius:7px}
+.kotoba-theme-thumbnail-card>span {flex:1;min-width:0;height:17px;border-radius:4px}
+.kotoba-theme-option-label {display:flex;align-items:center;justify-content:space-between;gap:6px;margin-top:9px;font-size:12px}
+.kotoba-theme-option-label strong {overflow-wrap:anywhere}
+.kotoba-theme-check {display:grid;place-items:center;flex-shrink:0;background:var(--theme-blue);color:white;width:19px;height:19px;border-radius:50%;font-weight:700}
+@media(max-width:750px){.kotoba-theme-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Settings theme selector: compact, finger-friendly tiles on mobile. */
+.kotoba-theme-panel { min-width:0; width:100%; }
+.kotoba-theme-grid { width:100%; align-items:stretch; }
+.kotoba-theme-grid > .kotoba-theme-option {
+  display:flex; flex-direction:column; width:100%; min-width:0; max-width:100%;
+  gap:0; margin:0; box-sizing:border-box; white-space:normal;
+  font-size:inherit; font-weight:400; line-height:1.4;
+}
+.kotoba-theme-thumbnail { display:flex; width:100%; box-sizing:border-box; }
+.kotoba-theme-option-label { display:flex; width:100%; min-width:0; align-items:flex-start; }
+.kotoba-theme-option-label strong { font-size:12px; line-height:1.35; font-weight:700; word-break:normal; overflow-wrap:break-word; }
+.kotoba-theme-check { flex:0 0 19px; }
+@media(max-width:650px) {
+  .kotoba-theme-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:9px; margin-top:13px; }
+  .kotoba-theme-option { padding:7px; border-radius:12px; }
+  .kotoba-theme-thumbnail { padding:8px; gap:6px; min-height:57px; }
+  .kotoba-theme-thumbnail-bar { height:12px; }
+  .kotoba-theme-thumbnail-card { padding:5px; gap:3px; }
+  .kotoba-theme-thumbnail-card>span { height:13px; }
+  .kotoba-theme-option-label { margin-top:7px; }
+}
+@media(max-width:340px) {
+  .kotoba-theme-grid { grid-template-columns:1fr; }
+}
+
+/* Kanji tiles: keep writing surfaces neutral, not pastel. Borders convey selection. */
+html[data-theme] .family-member-glyph,
+html[data-theme] .family-bases button,
+html[data-theme] .family-bases button.selected,
+html[data-theme] .family-card,
+html[data-theme] .family-card.selected,
+html[data-theme] .kanji-group-character,
+html[data-theme] .kanji-comparison-card,
+html[data-theme] .diagram {
+ background-color:#FFFFFF;
+}
+html[data-theme]:not([data-theme="midnight-ink"]) .family-member-glyph,
+html[data-theme]:not([data-theme="midnight-ink"]) .kanji-group-character {background-color:#FCFCFE}
+html[data-theme] .family-bases button.selected,
+html[data-theme] .family-card.selected {border-color:var(--theme-blue);box-shadow:inset 0 0 0 1px var(--theme-blue)}
+/* Keep SVG paths' individually assigned fill/stroke untouched. */
+
+/* Midnight Ink: real dark surfaces across study and settings screens. */
+html[data-theme="midnight-ink"] {
+ background:#101521;color:#EEF1FA;
+}
+html[data-theme="midnight-ink"] body,
+html[data-theme="midnight-ink"] .app,
+html[data-theme="midnight-ink"] .workspace {background:#101521;color:#EEF1FA}
+html[data-theme="midnight-ink"] .sidebar,
+html[data-theme="midnight-ink"] .topbar,
+html[data-theme="midnight-ink"] .mobile-nav {background:#1C2433;color:#EEF1FA;border-color:#344054}
+html[data-theme="midnight-ink"] .mobile-nav {background:#1C2433F5}
+html[data-theme="midnight-ink"] .panel,
+html[data-theme="midnight-ink"] .lesson-picker,
+html[data-theme="midnight-ink"] .family-insight,
+html[data-theme="midnight-ink"] .kanji-explorer,
+html[data-theme="midnight-ink"] .family-comparison,
+html[data-theme="midnight-ink"] .study-setup,
+html[data-theme="midnight-ink"] .flashcard,
+html[data-theme="midnight-ink"] .week,
+html[data-theme="midnight-ink"] .vocab-table,
+html[data-theme="midnight-ink"] .word-modal,
+html[data-theme="midnight-ink"] .search,
+html[data-theme="midnight-ink"] .selection-item,
+html[data-theme="midnight-ink"] .choice,
+html[data-theme="midnight-ink"] .ratings button,
+html[data-theme="midnight-ink"] .btn:not(.primary),
+html[data-theme="midnight-ink"] .week-buttons button,
+html[data-theme="midnight-ink"] .lesson-day-buttons button,
+html[data-theme="midnight-ink"] .component-buttons button,
+html[data-theme="midnight-ink"] .kotoba-theme-option {
+ background:#1C2433;color:#EEF1FA;border-color:#344054;
+}
+html[data-theme="midnight-ink"] .day-picker-toggle,
+html[data-theme="midnight-ink"] .kanji-group-heading,
+html[data-theme="midnight-ink"] .table-heading,
+html[data-theme="midnight-ink"] .search-hint,
+html[data-theme="midnight-ink"] .notice,
+html[data-theme="midnight-ink"] .import-preview,
+html[data-theme="midnight-ink"] .answer-area .answer-note,
+html[data-theme="midnight-ink"] .setup-icon,
+html[data-theme="midnight-ink"] .feedback,
+html[data-theme="midnight-ink"] .avatar,
+html[data-theme="midnight-ink"] .count {
+ background:#27334B;color:#D5DFF2;border-color:#344054;
+}
+html[data-theme="midnight-ink"] .panel p,
+html[data-theme="midnight-ink"] .subtitle,
+html[data-theme="midnight-ink"] .muted,
+html[data-theme="midnight-ink"] .section-head p,
+html[data-theme="midnight-ink"] .family-flow-heading p,
+html[data-theme="midnight-ink"] .family-word-top span,
+html[data-theme="midnight-ink"] .family-insight p,
+html[data-theme="midnight-ink"] .breadcrumb,
+html[data-theme="midnight-ink"] .local-label,
+html[data-theme="midnight-ink"] .side-note,
+html[data-theme="midnight-ink"] .reading-cell,
+html[data-theme="midnight-ink"] .meaning-cell,
+html[data-theme="midnight-ink"] .study-setup p,
+html[data-theme="midnight-ink"] .answer-area p,
+html[data-theme="midnight-ink"] .explorer-body p {color:#A9B6CC}
+html[data-theme="midnight-ink"] .nav {color:#C0CCE1}
+html[data-theme="midnight-ink"] .nav.active {color:#AFC0FF;background:#303E60}
+html[data-theme="midnight-ink"] .nav:hover,
+html[data-theme="midnight-ink"] .vocab-row:hover,
+html[data-theme="midnight-ink"] .choice:hover,
+html[data-theme="midnight-ink"] .btn:not(.primary):hover {background:#27334B}
+html[data-theme="midnight-ink"] .family-member,
+html[data-theme="midnight-ink"] .vocab-row,
+html[data-theme="midnight-ink"] .family-word+.family-word {border-color:#344054}
+html[data-theme="midnight-ink"] input,
+html[data-theme="midnight-ink"] textarea,
+html[data-theme="midnight-ink"] select {background:#151D2A;color:#EEF1FA;border-color:#344054}
+html[data-theme="midnight-ink"] .search input {background:transparent;color:#EEF1FA}
+html[data-theme="midnight-ink"] .card-prompt,
+html[data-theme="midnight-ink"] .answer-reading,
+html[data-theme="midnight-ink"] .detail-reading {color:#C1CEFF}
+html[data-theme="midnight-ink"] .btn.primary,
+html[data-theme="midnight-ink"] .week-buttons button.selected {background:#89A2FF;color:#101521;border-color:#89A2FF}
+html[data-theme="midnight-ink"] .hero {background:#283862;color:#F2F5FF}
+html[data-theme="midnight-ink"] .hero p {color:#D4DEFA}
+html[data-theme="midnight-ink"] .kotoba-theme-option.selected {border-color:#89A2FF}
+html[data-theme="midnight-ink"] .kotoba-theme-option-label {color:#EEF1FA}
+/* Light kanji islands on the dark page, with dark ink for text glyphs. */
+html[data-theme="midnight-ink"] .family-bases button,
+html[data-theme="midnight-ink"] .family-card,
+html[data-theme="midnight-ink"] .family-member-glyph,
+html[data-theme="midnight-ink"] .kanji-group-character,
+html[data-theme="midnight-ink"] .kanji-comparison-card,
+html[data-theme="midnight-ink"] .diagram {background:#F8FAFF;color:#243049;border-color:#CCD5E9}
+html[data-theme="midnight-ink"] .family-bases button.selected,
+html[data-theme="midnight-ink"] .family-card.selected {background:#F8FAFF;color:#243049;border-color:#89A2FF;box-shadow:inset 0 0 0 1px #89A2FF}
+html[data-theme="midnight-ink"] .family-member-glyph>span {color:#243049}
+html[data-theme="midnight-ink"] .family-card .family-reading,
+html[data-theme="midnight-ink"] .family-card .family-count,
+html[data-theme="midnight-ink"] .family-bases button small {color:#59677D}
+html[data-theme="midnight-ink"] .family-card .family-kanji,
+html[data-theme="midnight-ink"] .kanji-comparison-card .jp {color:#243049}
+/* Theme thumbnails are intentional previews of each palette, including dark. */
+html[data-theme="midnight-ink"] .kotoba-theme-thumbnail-card {background:#FFFFFF}
+
+/* Kotoba three-tab learning flow (Study / Review / Test). */
+.kotoba-study,.kotoba-review{--kotoba-accent:var(--theme-blue);color:var(--theme-text);width:100%;max-width:850px;margin:0 auto;min-width:0}
+.kotoba-study-title{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 17px}
+.kotoba-study-title h1{font-size:clamp(23px,4vw,31px);letter-spacing:-.045em;line-height:1.2;margin:0;color:var(--theme-text)}
+.kotoba-day-button,.kotoba-shuffle{border:1px solid var(--line);background:var(--paper);color:var(--theme-text);border-radius:12px;padding:9px 13px;font:inherit;font-weight:700;font-size:12px;white-space:nowrap;cursor:pointer}
+.kotoba-shuffle.enabled{border-color:var(--theme-blue);color:var(--theme-blue)}
+.kotoba-day-picker{margin-bottom:16px}
+.kotoba-progress-head{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:13px;margin:0 0 9px;color:var(--theme-text)}
+.kotoba-progress-head strong{font-variant-numeric:tabular-nums;white-space:nowrap}
+.kotoba-progress-track{height:8px;background:color-mix(in srgb,var(--theme-blue) 12%,var(--paper));border-radius:999px;overflow:hidden;margin-bottom:18px}
+.kotoba-progress-track span{display:block;height:100%;border-radius:inherit;background:var(--theme-blue);transition:width .2s ease}
+.kotoba-family-scroll,.kotoba-variation-scroll{display:flex;gap:9px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;scroll-snap-type:x proximity;overscroll-behavior-x:contain}
+.kotoba-family-scroll::-webkit-scrollbar,.kotoba-variation-scroll::-webkit-scrollbar{display:none}
+.kotoba-family-scroll{margin-bottom:17px;padding:2px 1px 5px;min-height:66px}
+.kotoba-family-button{position:relative;display:grid;place-items:center;flex:0 0 63px;height:59px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#253047;font:inherit;cursor:pointer;scroll-snap-align:start}
+.kotoba-family-button .jp{font-size:30px;line-height:1.2}
+.kotoba-family-button.active{border:2px solid var(--theme-blue);box-shadow:0 0 0 1px color-mix(in srgb,var(--theme-blue) 16%,transparent)}
+.kotoba-family-check{position:absolute;right:3px;top:1px;color:#248A68;font-size:12px;font-weight:800}
+.kotoba-study-card,.kotoba-review-card,.kotoba-review-finished{padding:21px;border:1px solid var(--line);border-radius:20px;background:var(--paper);min-width:0}
+.kotoba-card-overline{display:flex;justify-content:space-between;gap:10px;text-transform:uppercase;font-size:11px;font-weight:800;letter-spacing:.09em;color:var(--muted);font-variant-numeric:tabular-nums}
+.kotoba-kanji-stage{position:relative;margin:18px auto 12px;display:flex;justify-content:center;align-items:center;min-height:178px;max-width:340px;border-radius:17px;background:#fff;border:1px solid #E6E9F1;color:#242B44}
+.kotoba-kanji-svg{display:flex;align-items:center;justify-content:center;min-height:145px;min-width:145px}
+.kotoba-kanji-svg .comparison-glyph svg{width:148px!important;height:148px!important;max-width:100%}
+.kotoba-main-kanji{position:absolute;bottom:8px;right:13px;font-size:20px;color:#5A6380;opacity:.8}
+.kotoba-kanji-svg .comparison-glyph.fallback{font-size:115px;line-height:1.3}
+.kotoba-variation-scroll{justify-content:safe center;gap:7px;padding:2px 1px 12px;border-bottom:1px solid var(--line)}
+.kotoba-variation{font-size:23px;line-height:1.3;min-width:48px;min-height:46px;padding:6px 9px;border:1px solid var(--line);border-radius:10px;background:#fff;color:#283349;cursor:pointer}
+.kotoba-variation.selected{border:2px solid var(--theme-blue)}
+.kotoba-word-focus{min-height:142px;display:flex;align-items:center;flex-direction:column;justify-content:center;padding:14px 0 8px;gap:5px;text-align:center}
+.kotoba-word-heading{display:flex;align-items:center;justify-content:center;gap:12px;color:var(--theme-text)}
+.kotoba-word-heading strong{font-size:clamp(26px,5vw,38px);line-height:1.3}
+.kotoba-word-reading{color:var(--muted);font-size:15px}
+.kotoba-word-ko{font-size:16px;color:var(--theme-text);font-weight:700;margin-top:6px}
+.kotoba-word-en{font-size:14px;color:var(--muted)}
+.kotoba-sound{cursor:pointer;background:transparent;border:1px solid var(--line);border-radius:9px;color:var(--theme-blue);padding:7px 12px;font-size:18px;font-weight:700}
+.kotoba-card-actions{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:12px}
+.kotoba-primary-btn,.kotoba-outline-btn,.kotoba-mark-btn{font:inherit;font-size:13px;font-weight:750;cursor:pointer;border-radius:11px;min-height:44px;padding:10px 17px;border:1px solid var(--theme-blue)}
+.kotoba-primary-btn{background:var(--theme-blue);color:var(--theme-primary-contrast,#fff)}
+.kotoba-outline-btn{background:transparent;color:var(--theme-text);border-color:var(--line)}
+.kotoba-outline-btn:disabled{opacity:.4;cursor:default}
+.kotoba-swipe-hint{text-align:center;font-size:11px;color:var(--muted);margin-top:14px}
+.kotoba-study-footer{display:flex;justify-content:space-between;align-items:center;gap:9px;margin-top:15px}
+.kotoba-mark-btn{border-color:var(--line);color:var(--theme-text);background:var(--paper);font-size:12px}
+.kotoba-mark-btn.marked{border-color:var(--theme-blue);color:var(--theme-blue)}
+.kotoba-text-link{color:var(--theme-blue);font:inherit;font-weight:700;background:transparent;border:0;cursor:pointer;padding:10px}
+.kotoba-review-card{margin-top:12px}
+.kotoba-flip-surface{width:100%;min-height:295px;margin-top:15px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:21px;border-radius:17px;border:1px solid #E6E9F1;background:#fff;color:#273049;cursor:pointer;padding:25px 20px;text-align:center;touch-action:pan-y}
+.kotoba-flip-surface .kotoba-review-word{font-size:clamp(48px,9vw,76px);line-height:1.4;font-weight:650;overflow-wrap:anywhere}
+.kotoba-flip-surface small{color:#728099;font-size:12px}
+.kotoba-flip-answer{display:flex;align-items:center;gap:12px;flex-direction:column;color:#26334F}
+.kotoba-flip-answer strong{font-size:clamp(27px,6vw,42px)}
+.kotoba-flip-answer span{font-size:19px}
+.kotoba-review-audio{display:block;margin:12px auto 0;font-size:13px}
+.kotoba-review-ratings{display:flex;gap:8px}
+.kotoba-review-finished{margin-top:15px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:12px;padding:50px 12px}
+.kotoba-review-finished h2,.kotoba-review-finished p{margin:0}
+.kotoba-celebrate{font-size:44px;color:var(--theme-blue)}
+.kotoba-empty{padding:25px;text-align:center;border:1px solid var(--line);border-radius:14px;background:var(--paper)}
+.kotoba-header-tool{border:0;background:transparent;color:var(--theme-text);padding:7px;display:grid;place-items:center;cursor:pointer;border-radius:9px;min-width:35px;min-height:35px}
+.kotoba-header-tool:hover{background:var(--theme-soft)}
+html[data-theme="midnight-ink"] .kotoba-family-button,
+html[data-theme="midnight-ink"] .kotoba-variation,
+html[data-theme="midnight-ink"] .kotoba-kanji-stage,
+html[data-theme="midnight-ink"] .kotoba-flip-surface{background:#F8FAFF;color:#243049;border-color:#CCD5E9}
+html[data-theme="midnight-ink"] .kotoba-family-button.active,
+html[data-theme="midnight-ink"] .kotoba-variation.selected{border-color:#89A2FF}
+html[data-theme="midnight-ink"] .kotoba-flip-surface small{color:#687797}
+html[data-theme="midnight-ink"] .kotoba-study-card,
+html[data-theme="midnight-ink"] .kotoba-review-card,
+html[data-theme="midnight-ink"] .kotoba-review-finished{background:#1C2433;color:#EEF1FA}
+@media(max-width:600px){
+ .kotoba-study,.kotoba-review{padding:0;max-width:none}
+ .kotoba-study-title{margin-bottom:14px}
+ .kotoba-study-card,.kotoba-review-card{padding:14px;border-radius:17px}
+ .kotoba-family-scroll{margin-bottom:13px}
+ .kotoba-family-button{flex-basis:56px;height:56px}
+ .kotoba-family-button .jp{font-size:27px}
+ .kotoba-kanji-stage{min-height:160px;margin:11px auto 10px}
+ .kotoba-kanji-svg{min-height:134px}
+ .kotoba-kanji-svg .comparison-glyph svg{width:130px!important;height:130px!important}
+ .kotoba-word-focus{min-height:130px;padding-top:10px}
+ .kotoba-flip-surface{min-height:290px}
+ .kotoba-header-tool{min-width:33px;padding:6px}
+ .kotoba-card-actions button{padding:10px 14px}
+}
+
+/* Reconstructed Study/Review controls */
+.kotoba-view-switch{display:flex;gap:7px;margin:6px 0 16px;padding:4px;background:var(--theme-soft);border-radius:13px}.kotoba-view-switch button{flex:1;min-width:0;border-radius:10px;padding:11px 7px;color:var(--muted);font-size:12px;font-weight:700}.kotoba-view-switch button.active{background:var(--paper);box-shadow:0 1px 5px #19223b19;color:var(--theme-blue)}.kotoba-study-tools{display:flex;gap:7px;align-items:center}.kotoba-family-note{font-size:12px;color:var(--muted);padding:0 15px 10px;line-height:1.7}.kotoba-families-reconstructed{border:1px solid var(--line);border-radius:18px;background:var(--paper);overflow:hidden}.kotoba-families-reconstructed .family-flow-heading{padding:15px}.kotoba-families-reconstructed .family-member{padding:10px 14px}.kotoba-word-detail{display:flex;flex-direction:column;align-items:flex-start;gap:4px;text-align:left}.kotoba-word-options{display:flex;gap:6px;justify-content:center}.kotoba-word-options button{border:1px solid var(--line);border-radius:50%;width:24px;height:24px}.kotoba-word-options button.active{background:var(--theme-blue);color:white}.kotoba-footer-actions{display:flex;gap:7px}.kotoba-review-setup{display:flex;flex-direction:column;align-items:stretch;gap:18px;margin-top:15px}.kotoba-review-setup h2{font-size:22px}.kotoba-review-setup p{color:var(--muted);line-height:1.6}.kotoba-checkline{display:flex;gap:10px;align-items:center}.kotoba-checkline input{accent-color:var(--theme-blue)}.kotoba-review-ratings{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-top:15px}.kotoba-review-ratings button{border:1px solid var(--line);border-radius:9px;background:var(--paper);padding:12px 3px;font-weight:700;font-size:12px}.kotoba-review-ratings button:nth-child(1){color:#C35B49}.kotoba-review-ratings button:nth-child(3){color:#188768}.kotoba-review-ratings button:hover{border-color:var(--theme-blue)}.kotoba-study-card .kotoba-kanji-stage{background:white}.kotoba-study-card .comparison-glyph{width:148px;height:148px}.kotoba-study-card .comparison-glyph svg{width:148px;height:148px}.kotoba-family-scroll,.kotoba-variation-scroll{scrollbar-width:none}.kotoba-family-scroll button small{font:10px sans-serif;display:block;color:var(--muted)}.kotoba-families-reconstructed .family-member-glyph{min-width:90px}.kotoba-study .family-bases{margin-bottom:15px}.kotoba-review-setup .kotoba-primary-btn{width:100%}@media(max-width:600px){.kotoba-study-title h1{font-size:27px}.kotoba-day-button,.kotoba-shuffle{font-size:10px;padding:8px}.kotoba-view-switch{margin-bottom:11px}.kotoba-review-setup{margin-top:8px}.kotoba-study-card .comparison-glyph,.kotoba-study-card .comparison-glyph svg{width:130px;height:130px}.kotoba-families-reconstructed .family-member{padding:8px}.kotoba-footer-actions{gap:1px}.kotoba-study-footer{flex-wrap:wrap}}
